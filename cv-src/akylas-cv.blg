@@ -1,0 +1,20 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'akylas-cv.blg'
+[83] biber-MSWIN64:340> INFO - === 
+[119] Biber.pm:419> INFO - Reading 'akylas-cv.bcf'
+[194] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[206] Biber.pm:4419> INFO - Processing section 0
+[215] Biber.pm:4610> INFO - Looking for bibtex file 'publications.bib' for section 0
+[285] bibtex.pm:1713> INFO - LaTeX decoding ...
+[335] bibtex.pm:1519> INFO - Found BibTeX data source 'publications.bib'
+[508] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[508] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[508] Biber.pm:4239> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[508] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[537] bbl.pm:660> INFO - Writing 'akylas-cv.bbl' with encoding 'UTF-8'
+[552] bbl.pm:763> INFO - Output to akylas-cv.bbl
+[552] Biber.pm:131> WARN - Duplicate entry key: 'stratigakos2021short' in file 'publications.bib', skipping ...
+[552] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\ucbva19\AppData\Local\Temp\biber_tmp_4ACA\6a584f12d8a9d2773171142f50537bb3_24104.utf8, line 199, warning: 51 characters of junk seen at toplevel
+[552] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[552] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[552] Biber.pm:133> INFO - WARNINGS: 4

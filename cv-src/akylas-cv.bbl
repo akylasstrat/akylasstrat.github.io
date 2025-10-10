@@ -19,6 +19,42 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{stratigakos2025adaptive}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c0991f4361f458fa75b7c8492b17df27}{%
+           family={Stratigakos},
+           familyi={S\bibinitperiod},
+           given={Akylas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5b8e0c136de286fc5a3f01c137855e4d}{%
+           family={Andrianesis},
+           familyi={A\bibinitperiod},
+           given={Panagiotis},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{45e0f398704592737ca946cefe499f29}
+      \strng{fullhash}{45e0f398704592737ca946cefe499f29}
+      \strng{bibnamehash}{45e0f398704592737ca946cefe499f29}
+      \strng{authorbibnamehash}{45e0f398704592737ca946cefe499f29}
+      \strng{authornamehash}{45e0f398704592737ca946cefe499f29}
+      \strng{authorfullhash}{45e0f398704592737ca946cefe499f29}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Smart Grid}
+      \field{title}{Learning Data-Driven Uncertainty Set Partitions for Robust and Adaptive Energy Forecasting with Missing Data}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2503.20410
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2503.20410
+      \endverb
+      \keyw{peerjournal}
+      \annotation{item}{author}{default}{1}{}{0}{highlight}
+    \endentry
     \entry{bergmeir2025predict}{article}{}
       \name{author}{28}{}{%
         {{hash=fb7be81f0574878d688bb03f0abb8502}{%
@@ -183,45 +219,6 @@
       \endverb
       \keyw{peerjournal}
       \annotation{item}{author}{default}{24}{}{0}{highlight}
-    \endentry
-    \entry{stratigakos2025adaptive}{article}{}
-      \name{author}{2}{}{%
-        {{hash=c0991f4361f458fa75b7c8492b17df27}{%
-           family={Stratigakos},
-           familyi={S\bibinitperiod},
-           given={Akylas},
-           giveni={A\bibinitperiod}}}%
-        {{hash=5b8e0c136de286fc5a3f01c137855e4d}{%
-           family={Andrianesis},
-           familyi={A\bibinitperiod},
-           given={Panagiotis},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{45e0f398704592737ca946cefe499f29}
-      \strng{fullhash}{45e0f398704592737ca946cefe499f29}
-      \strng{bibnamehash}{45e0f398704592737ca946cefe499f29}
-      \strng{authorbibnamehash}{45e0f398704592737ca946cefe499f29}
-      \strng{authornamehash}{45e0f398704592737ca946cefe499f29}
-      \strng{authorfullhash}{45e0f398704592737ca946cefe499f29}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{title}{{Learning Data-Driven Uncertainty Set Partitions for Robust and Adaptive Energy Forecasting with Missing Data}}
-      \field{year}{2025}
-      \true{nocite}
-      \verb{eprint}
-      \verb 2503.20410
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2503.20410
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2503.20410
-      \endverb
-      \keyw{preprint}
-      \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
     \entry{stratigakos2025levelset}{article}{}
       \name{author}{4}{}{%
