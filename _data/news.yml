@@ -1,4 +1,7 @@
 # Newest first
+- date: 2025-12-01
+  text: "I received an Outstanding Reviewer award for IEEE Transactions on Sustainable Energy."
+  
 - date: 2025-10-01
   text: "Our paper titled [Learning Data-Driven Uncertainty Set Partitions for Robust and Adaptive Energy Forecasting with Missing Data](https://arxiv.org/abs/2503.20410) has been accepted for publication in IEEE Transactions on Smart Grid!"
   
@@ -6,4 +9,4 @@
   text: "Excited to join [UCL Energy Institute](https://www.ucl.ac.uk/bartlett/environment-energy-resources/energy) as Lecturer in Energy Systems and Data Analytics!"
 
 - date: 2025-07-01
-  text: "I presented our work on robust and adaptive forecasting ([arxiv](https://arxiv.org/abs/2503.20410), [git repo](https://github.com/akylasstrat/wind-forecast-missing-data)) at the [17 International Conference on Stochastic Programming](https://icsp2025.org/), which was an excellent conference."
+  text: "I presented our work on robust and adaptive forecasting ([arxiv](https://arxiv.org/abs/2503.20410), [git repo](https://github.com/akylasstrat/wind-forecast-missing-data)) at the [17th International Conference on Stochastic Programming](https://icsp2025.org/), which was an excellent conference."
