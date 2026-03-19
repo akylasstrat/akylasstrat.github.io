@@ -12,10 +12,11 @@
 #  authors: "Akylas Stratigakos, Honglin, Wen, Elina, Spyrou, Pierre Pinson"
   # code: "https://github.com/your/repo"
 
-#- type: "journal"
-#  year: 2025
-#  title: "{Dynamic Network-aware Reserves Procurement via Adversarial Deployment Scenarios}"
-#  authors: "Guillaume Van Caelenberg, Akylas Stratigakos, Elina Spyrou"
+- type: "journal"
+  year: 2026
+  title: "{Constructing Deployment Scenarios for Reserve Deliverability via Adaptive Robust Optimization}"
+  authors: "Guillaume Van Caelenberg, Akylas Stratigakos, Elina Spyrou"
+  venue: Power Systems Computation Conference 2026
   # code: "https://github.com/your/repo"
 
 - type: "journal"

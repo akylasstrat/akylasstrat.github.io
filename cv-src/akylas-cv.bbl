@@ -55,6 +55,47 @@
       \keyw{peerjournal}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
+    \entry{vancaelenberg2026constructing}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c5bcd6a6fca8d9853318ce4ded6aae2b}{%
+           family={Van\bibnamedelima Caelenberg},
+           familyi={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c0991f4361f458fa75b7c8492b17df27}{%
+           family={Stratigakos},
+           familyi={S\bibinitperiod},
+           given={Akylas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7af782ef397265bd7f0f0498fedf615a}{%
+           family={Spyrou},
+           familyi={S\bibinitperiod},
+           given={Elina},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{60d5e42469f08f0506fa8789259a98d6}
+      \strng{fullhash}{60d5e42469f08f0506fa8789259a98d6}
+      \strng{bibnamehash}{60d5e42469f08f0506fa8789259a98d6}
+      \strng{authorbibnamehash}{60d5e42469f08f0506fa8789259a98d6}
+      \strng{authornamehash}{60d5e42469f08f0506fa8789259a98d6}
+      \strng{authorfullhash}{60d5e42469f08f0506fa8789259a98d6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Power Systems Computation Conference 2026}
+      \field{title}{Constructing Deployment Scenarios for Reserve Deliverability via Adaptive Robust Optimization}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2603.16752
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2603.16752
+      \endverb
+      \keyw{peerjournal}
+      \annotation{item}{author}{default}{2}{}{0}{highlight}
+    \endentry
     \entry{bergmeir2025predict}{article}{}
       \name{author}{28}{}{%
         {{hash=fb7be81f0574878d688bb03f0abb8502}{%
@@ -256,7 +297,7 @@
       \field{labeltitlesource}{title}
       \field{month}{3}
       \field{note}{working paper or preprint}
-      \field{title}{{Level Set Forecasting for Power System Operations}}
+      \field{title}{{Constructing Predictive Sets for Robust Decisions in Power Systems}}
       \field{year}{2025}
       \true{nocite}
       \keyw{preprint}
@@ -303,42 +344,6 @@
       \endverb
       \keyw{presentation}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
-    \endentry
-    \entry{vancaelenberg2025networkaware}{article}{}
-      \name{author}{3}{}{%
-        {{hash=c5bcd6a6fca8d9853318ce4ded6aae2b}{%
-           family={Van\bibnamedelima Caelenberg},
-           familyi={V\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={Guillaume},
-           giveni={G\bibinitperiod}}}%
-        {{hash=c0991f4361f458fa75b7c8492b17df27}{%
-           family={Stratigakos},
-           familyi={S\bibinitperiod},
-           given={Akylas},
-           giveni={A\bibinitperiod}}}%
-        {{hash=7af782ef397265bd7f0f0498fedf615a}{%
-           family={Spyrou},
-           familyi={S\bibinitperiod},
-           given={Elina},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{60d5e42469f08f0506fa8789259a98d6}
-      \strng{fullhash}{60d5e42469f08f0506fa8789259a98d6}
-      \strng{bibnamehash}{60d5e42469f08f0506fa8789259a98d6}
-      \strng{authorbibnamehash}{60d5e42469f08f0506fa8789259a98d6}
-      \strng{authornamehash}{60d5e42469f08f0506fa8789259a98d6}
-      \strng{authorfullhash}{60d5e42469f08f0506fa8789259a98d6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{3}
-      \field{note}{working paper or preprint}
-      \field{title}{{Dynamic Network-aware Reserves Procurement via Adversarial Deployment Scenarios}}
-      \field{year}{2025}
-      \true{nocite}
-      \keyw{preprint}
-      \annotation{item}{author}{default}{2}{}{0}{highlight}
     \endentry
     \entry{krommydas2024battery}{inproceedings}{}
       \name{author}{4}{}{%

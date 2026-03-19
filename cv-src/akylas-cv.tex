@@ -33,6 +33,17 @@ maxbibnames=99,giveninits=true,uniquename=false]{biblatex}
 % \usepackage[backend=biber,style=authoryear,sorting=ydnt,maxnames=10]{biblatex}
 \addbibresource{publications.bib}
 \renewcommand*{\bibfont}{\normalfont\small}
+
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
+
 % \renewcommand*{\mkbibnamegiven}[1]{
 % \ifitemannotation{highlight}
 % {\textbf{#1}}
@@ -162,8 +173,8 @@ My research develops and validates novel predictive and prescriptive analytics m
 % ---------- Teaching ----------
 \section*{Teaching Experience}
 \begin{entrylist}
-  \entry{2025 - 2026}{Energy Data Analytics in the Built Environment (BENV0092)}
-  {Energy Systems and Data Analytics MSc (core module)}{
+  \entry{2025 - 2026}{Energy Data Analytics in the Built Environment (Module Lead)}
+  {Energy Systems and Data Analytics MSc (15 credits)}{
     \begin{itemize}
       \vspace{-0.4em}
       \item Designed and led a core MSc module (>60 students) on data analytics methods to analyze, predict, and optimize building energy demand and use.
@@ -196,11 +207,31 @@ My research develops and validates novel predictive and prescriptive analytics m
 
 % ---------- Grants, Awards, etc. ----------
 \section*{Grants \& Awards}
+
 \begin{entrylist}
-  \entry{2025}{Outstanding Reviewer}{IEEE Transactions on Sustainable Energy}{}
-  \entry{2024}{Best Thesis Award}{Think Smartgrids Association}{}
-  \entry{2022}{Best Student Presentation \& Travel Grant Award}{42nd International Symposium on Forecasting}{}
+\entrylabel{Research Grants}{%
+    LLMs4Energy: Large Language Models for Energy Systems Modelling (PI, £7.5k)
+    }
 \end{entrylist}
+
+\begin{entrylist}
+\entrylabel{Awards}{%
+    Outstanding Reviewer IEEE Transactions on Sustainable Energy (2025)
+
+    Best PhD Thesis Award, Think Smartgrids Association (2024)
+
+    Erasmus+ Mobility Grant (2023)
+
+    Best Student Presentation \& Travel Grant Award, 42nd International Symposium on Forecasting (2022)
+    }
+\end{entrylist}
+
+  
+% \begin{entrylist}
+%   \entry{2025}{Outstanding Reviewer}{IEEE Transactions on Sustainable Energy}{}
+%   \entry{2024}{Best Thesis Award}{Think Smartgrids Association}{}
+%   \entry{2022}{Best Student Presentation \& Travel Grant Award}{42nd International Symposium on Forecasting}{}
+% \end{entrylist}
 
 % % ---------- Teaching ----------
 % \section*{Teaching}
