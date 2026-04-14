@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{ydnt/global//global/global}
-    \entry{stratigakos2025adaptive}{article}{}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{stratigakos2025adaptive}{article}{}{}
       \name{author}{2}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -34,10 +34,12 @@
       }
       \strng{namehash}{45e0f398704592737ca946cefe499f29}
       \strng{fullhash}{45e0f398704592737ca946cefe499f29}
+      \strng{fullhashraw}{45e0f398704592737ca946cefe499f29}
       \strng{bibnamehash}{45e0f398704592737ca946cefe499f29}
       \strng{authorbibnamehash}{45e0f398704592737ca946cefe499f29}
       \strng{authornamehash}{45e0f398704592737ca946cefe499f29}
       \strng{authorfullhash}{45e0f398704592737ca946cefe499f29}
+      \strng{authorfullhashraw}{45e0f398704592737ca946cefe499f29}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -55,7 +57,51 @@
       \keyw{peerjournal}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{vancaelenberg2026constructing}{article}{}
+    \entry{stratigakos2025levelset}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c0991f4361f458fa75b7c8492b17df27}{%
+           family={Stratigakos},
+           familyi={S\bibinitperiod},
+           given={Akylas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=870942e745f0a5a3d17fffbd9161820f}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Honglin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7af782ef397265bd7f0f0498fedf615a}{%
+           family={Spyrou},
+           familyi={S\bibinitperiod},
+           given={Elina},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f868152a252ba8f399a537f3a95cf9f3}{%
+           family={Pinson},
+           familyi={P\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{0befba73afe5dfca76e123548e8ee11d}
+      \strng{fullhash}{b07cec55acab33da66d3ad907021c8e3}
+      \strng{fullhashraw}{b07cec55acab33da66d3ad907021c8e3}
+      \strng{bibnamehash}{b07cec55acab33da66d3ad907021c8e3}
+      \strng{authorbibnamehash}{b07cec55acab33da66d3ad907021c8e3}
+      \strng{authornamehash}{0befba73afe5dfca76e123548e8ee11d}
+      \strng{authorfullhash}{b07cec55acab33da66d3ad907021c8e3}
+      \strng{authorfullhashraw}{b07cec55acab33da66d3ad907021c8e3}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{note}{working paper or preprint}
+      \field{title}{{Constructing Predictive Sets for Robust Decisions in Power Systems}}
+      \field{year}{2026}
+      \true{nocite}
+      \keyw{preprint}
+      \annotation{item}{author}{default}{1}{}{0}{highlight}
+    \endentry
+    \entry{vancaelenberg2026constructing}{article}{}{}
       \name{author}{3}{}{%
         {{hash=c5bcd6a6fca8d9853318ce4ded6aae2b}{%
            family={Van\bibnamedelima Caelenberg},
@@ -75,10 +121,12 @@
       }
       \strng{namehash}{60d5e42469f08f0506fa8789259a98d6}
       \strng{fullhash}{60d5e42469f08f0506fa8789259a98d6}
+      \strng{fullhashraw}{60d5e42469f08f0506fa8789259a98d6}
       \strng{bibnamehash}{60d5e42469f08f0506fa8789259a98d6}
       \strng{authorbibnamehash}{60d5e42469f08f0506fa8789259a98d6}
       \strng{authornamehash}{60d5e42469f08f0506fa8789259a98d6}
       \strng{authorfullhash}{60d5e42469f08f0506fa8789259a98d6}
+      \strng{authorfullhashraw}{60d5e42469f08f0506fa8789259a98d6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -96,7 +144,7 @@
       \keyw{peerjournal}
       \annotation{item}{author}{default}{2}{}{0}{highlight}
     \endentry
-    \entry{bergmeir2025predict}{article}{}
+    \entry{bergmeir2025predict}{article}{}{}
       \name{author}{28}{}{%
         {{hash=fb7be81f0574878d688bb03f0abb8502}{%
            family={Bergmeir},
@@ -241,10 +289,12 @@
       }
       \strng{namehash}{b8f58b862d412017af28a340c6b81f9b}
       \strng{fullhash}{14ca4e9d0704afb99e716b3503b7088a}
+      \strng{fullhashraw}{14ca4e9d0704afb99e716b3503b7088a}
       \strng{bibnamehash}{14ca4e9d0704afb99e716b3503b7088a}
       \strng{authorbibnamehash}{14ca4e9d0704afb99e716b3503b7088a}
       \strng{authornamehash}{b8f58b862d412017af28a340c6b81f9b}
       \strng{authorfullhash}{14ca4e9d0704afb99e716b3503b7088a}
+      \strng{authorfullhashraw}{14ca4e9d0704afb99e716b3503b7088a}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -261,49 +311,7 @@
       \keyw{peerjournal}
       \annotation{item}{author}{default}{24}{}{0}{highlight}
     \endentry
-    \entry{stratigakos2025levelset}{article}{}
-      \name{author}{4}{}{%
-        {{hash=c0991f4361f458fa75b7c8492b17df27}{%
-           family={Stratigakos},
-           familyi={S\bibinitperiod},
-           given={Akylas},
-           giveni={A\bibinitperiod}}}%
-        {{hash=870942e745f0a5a3d17fffbd9161820f}{%
-           family={Wen},
-           familyi={W\bibinitperiod},
-           given={Honglin},
-           giveni={H\bibinitperiod}}}%
-        {{hash=7af782ef397265bd7f0f0498fedf615a}{%
-           family={Spyrou},
-           familyi={S\bibinitperiod},
-           given={Elina},
-           giveni={E\bibinitperiod}}}%
-        {{hash=f868152a252ba8f399a537f3a95cf9f3}{%
-           family={Pinson},
-           familyi={P\bibinitperiod},
-           given={Pierre},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{0befba73afe5dfca76e123548e8ee11d}
-      \strng{fullhash}{b07cec55acab33da66d3ad907021c8e3}
-      \strng{bibnamehash}{b07cec55acab33da66d3ad907021c8e3}
-      \strng{authorbibnamehash}{b07cec55acab33da66d3ad907021c8e3}
-      \strng{authornamehash}{0befba73afe5dfca76e123548e8ee11d}
-      \strng{authorfullhash}{b07cec55acab33da66d3ad907021c8e3}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{3}
-      \field{note}{working paper or preprint}
-      \field{title}{{Constructing Predictive Sets for Robust Decisions in Power Systems}}
-      \field{year}{2025}
-      \true{nocite}
-      \keyw{preprint}
-      \annotation{item}{author}{default}{1}{}{0}{highlight}
-    \endentry
-    \entry{esig_webinar}{misc}{}
+    \entry{esig_webinar}{misc}{}{}
       \name{author}{2}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -321,10 +329,12 @@
       }
       \strng{namehash}{f94874e0cbbf299fae0e8ce41740607f}
       \strng{fullhash}{f94874e0cbbf299fae0e8ce41740607f}
+      \strng{fullhashraw}{f94874e0cbbf299fae0e8ce41740607f}
       \strng{bibnamehash}{f94874e0cbbf299fae0e8ce41740607f}
       \strng{authorbibnamehash}{f94874e0cbbf299fae0e8ce41740607f}
       \strng{authornamehash}{f94874e0cbbf299fae0e8ce41740607f}
       \strng{authorfullhash}{f94874e0cbbf299fae0e8ce41740607f}
+      \strng{authorfullhashraw}{f94874e0cbbf299fae0e8ce41740607f}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -345,7 +355,7 @@
       \keyw{presentation}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{krommydas2024battery}{inproceedings}{}
+    \entry{krommydas2024battery}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{hash=ed725ee790d8e8901f95b0696efb3679}{%
            family={Krommydas},
@@ -376,10 +386,12 @@
       }
       \strng{namehash}{f72f7cc5c2f02795259c68f24475be3d}
       \strng{fullhash}{a5029d5fdf4c19810b8a994324fcf1e6}
+      \strng{fullhashraw}{a5029d5fdf4c19810b8a994324fcf1e6}
       \strng{bibnamehash}{a5029d5fdf4c19810b8a994324fcf1e6}
       \strng{authorbibnamehash}{a5029d5fdf4c19810b8a994324fcf1e6}
       \strng{authornamehash}{f72f7cc5c2f02795259c68f24475be3d}
       \strng{authorfullhash}{a5029d5fdf4c19810b8a994324fcf1e6}
+      \strng{authorfullhashraw}{a5029d5fdf4c19810b8a994324fcf1e6}
       \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -393,7 +405,7 @@
       \keyw{peerconf}
       \annotation{item}{author}{default}{2}{}{0}{highlight}
     \endentry
-    \entry{krommydas2024two}{inproceedings}{}
+    \entry{krommydas2024two}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{hash=51ffe12283957682ef696b969d04f760}{%
            family={Krommydas},
@@ -421,10 +433,12 @@
       }
       \strng{namehash}{dbb43e0ffd66bc120be0791b361d4a03}
       \strng{fullhash}{a2af8d0530ab51135297d02e4a2b0339}
+      \strng{fullhashraw}{a2af8d0530ab51135297d02e4a2b0339}
       \strng{bibnamehash}{a2af8d0530ab51135297d02e4a2b0339}
       \strng{authorbibnamehash}{a2af8d0530ab51135297d02e4a2b0339}
       \strng{authornamehash}{dbb43e0ffd66bc120be0791b361d4a03}
       \strng{authorfullhash}{a2af8d0530ab51135297d02e4a2b0339}
+      \strng{authorfullhashraw}{a2af8d0530ab51135297d02e4a2b0339}
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -441,7 +455,7 @@
       \keyw{peerconf}
       \annotation{item}{author}{default}{2}{}{0}{highlight}
     \endentry
-    \entry{stratigakos2024combination}{article}{}
+    \entry{stratigakos2024combination}{article}{}{}
       \name{author}{3}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -461,10 +475,12 @@
       }
       \strng{namehash}{1a925018aa71fa625bff9056b65e763c}
       \strng{fullhash}{1a925018aa71fa625bff9056b65e763c}
+      \strng{fullhashraw}{1a925018aa71fa625bff9056b65e763c}
       \strng{bibnamehash}{1a925018aa71fa625bff9056b65e763c}
       \strng{authorbibnamehash}{1a925018aa71fa625bff9056b65e763c}
       \strng{authornamehash}{1a925018aa71fa625bff9056b65e763c}
       \strng{authorfullhash}{1a925018aa71fa625bff9056b65e763c}
+      \strng{authorfullhashraw}{1a925018aa71fa625bff9056b65e763c}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -486,7 +502,7 @@
       \keyw{peerjournal}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{stratigakos2024interpretable}{article}{}
+    \entry{stratigakos2024interpretable}{article}{}{}
       \name{author}{4}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -511,10 +527,12 @@
       }
       \strng{namehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{fullhash}{60586b4614b10d45493755438614818d}
+      \strng{fullhashraw}{60586b4614b10d45493755438614818d}
       \strng{bibnamehash}{60586b4614b10d45493755438614818d}
       \strng{authorbibnamehash}{60586b4614b10d45493755438614818d}
       \strng{authornamehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{authorfullhash}{60586b4614b10d45493755438614818d}
+      \strng{authorfullhashraw}{60586b4614b10d45493755438614818d}
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -534,7 +552,7 @@
       \keyw{peerjournal}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{kuhnau2023resilient}{inproceedings}{}
+    \entry{kuhnau2023resilient}{inproceedings}{}{}
       \name{author}{5}{}{%
         {{hash=e1344891c584c8cf1dc21aa83dc46a82}{%
            family={Kühnau},
@@ -564,10 +582,12 @@
       }
       \strng{namehash}{d212cab4cf659c72f413abba59447530}
       \strng{fullhash}{c8969b431d2835f0916a849463f9adfb}
+      \strng{fullhashraw}{c8969b431d2835f0916a849463f9adfb}
       \strng{bibnamehash}{c8969b431d2835f0916a849463f9adfb}
       \strng{authorbibnamehash}{c8969b431d2835f0916a849463f9adfb}
       \strng{authornamehash}{d212cab4cf659c72f413abba59447530}
       \strng{authorfullhash}{c8969b431d2835f0916a849463f9adfb}
+      \strng{authorfullhashraw}{c8969b431d2835f0916a849463f9adfb}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -585,7 +605,7 @@
       \keyw{peerconf}
       \annotation{item}{author}{default}{2}{}{0}{highlight}
     \endentry
-    \entry{stratigakos_thesis}{thesis}{}
+    \entry{stratigakos_thesis}{thesis}{}{}
       \name{author}{1}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -598,10 +618,12 @@
       }
       \strng{namehash}{c0991f4361f458fa75b7c8492b17df27}
       \strng{fullhash}{c0991f4361f458fa75b7c8492b17df27}
+      \strng{fullhashraw}{c0991f4361f458fa75b7c8492b17df27}
       \strng{bibnamehash}{c0991f4361f458fa75b7c8492b17df27}
       \strng{authorbibnamehash}{c0991f4361f458fa75b7c8492b17df27}
       \strng{authornamehash}{c0991f4361f458fa75b7c8492b17df27}
       \strng{authorfullhash}{c0991f4361f458fa75b7c8492b17df27}
+      \strng{authorfullhashraw}{c0991f4361f458fa75b7c8492b17df27}
       \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -625,7 +647,7 @@
       \keyw{monographs}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{stratigakos2023resilient}{article}{}
+    \entry{stratigakos2023resilient}{article}{}{}
       \name{author}{4}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -650,10 +672,12 @@
       }
       \strng{namehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{fullhash}{9db6641369448bc20df6e60768e5876a}
+      \strng{fullhashraw}{9db6641369448bc20df6e60768e5876a}
       \strng{bibnamehash}{9db6641369448bc20df6e60768e5876a}
       \strng{authorbibnamehash}{9db6641369448bc20df6e60768e5876a}
       \strng{authornamehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{authorfullhash}{9db6641369448bc20df6e60768e5876a}
+      \strng{authorfullhashraw}{9db6641369448bc20df6e60768e5876a}
       \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -671,58 +695,7 @@
       \keyw{peerjournal}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{stratigakos2023datapooling}{article}{}
-      \name{author}{4}{}{%
-        {{hash=c0991f4361f458fa75b7c8492b17df27}{%
-           family={Stratigakos},
-           familyi={S\bibinitperiod},
-           given={Akylas},
-           giveni={A\bibinitperiod}}}%
-        {{hash=6d0b8a7e1fc991d42d96c44ca4d6c75b}{%
-           family={Morales},
-           familyi={M\bibinitperiod},
-           given={Juan\bibnamedelima Miguel},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=a3216c06ac0374b14b121f211ec9c564}{%
-           family={Pineda},
-           familyi={P\bibinitperiod},
-           given={Salvador},
-           giveni={S\bibinitperiod}}}%
-        {{hash=d2cc1e53062a542bef73307dec3ea7bb}{%
-           family={Kariniotakis},
-           familyi={K\bibinitperiod},
-           given={Georges},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{0befba73afe5dfca76e123548e8ee11d}
-      \strng{fullhash}{2369e51b8f86df98aa853aece59fb9df}
-      \strng{bibnamehash}{2369e51b8f86df98aa853aece59fb9df}
-      \strng{authorbibnamehash}{2369e51b8f86df98aa853aece59fb9df}
-      \strng{authornamehash}{0befba73afe5dfca76e123548e8ee11d}
-      \strng{authorfullhash}{2369e51b8f86df98aa853aece59fb9df}
-      \field{extraname}{4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{note}{working paper or preprint}
-      \field{title}{{Decision-Focused Data Pooling for Contextual Stochastic Optimization}}
-      \field{year}{2023}
-      \true{nocite}
-      \verb{file}
-      \verb https://hal.science/hal-04268454/file/data-pooling-main.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://hal.science/hal-04268454
-      \endverb
-      \verb{url}
-      \verb https://hal.science/hal-04268454
-      \endverb
-      \keyw{preprint}
-      \annotation{item}{author}{default}{1}{}{0}{highlight}
-    \endentry
-    \entry{krommydas2022flexibility}{article}{}
+    \entry{krommydas2022flexibility}{article}{}{}
       \name{author}{4}{}{%
         {{hash=ed725ee790d8e8901f95b0696efb3679}{%
            family={Krommydas},
@@ -750,10 +723,12 @@
       }
       \strng{namehash}{f72f7cc5c2f02795259c68f24475be3d}
       \strng{fullhash}{ab5f7e1c0cbe9596a071061227a00909}
+      \strng{fullhashraw}{ab5f7e1c0cbe9596a071061227a00909}
       \strng{bibnamehash}{ab5f7e1c0cbe9596a071061227a00909}
       \strng{authorbibnamehash}{ab5f7e1c0cbe9596a071061227a00909}
       \strng{authornamehash}{f72f7cc5c2f02795259c68f24475be3d}
       \strng{authorfullhash}{ab5f7e1c0cbe9596a071061227a00909}
+      \strng{authorfullhashraw}{ab5f7e1c0cbe9596a071061227a00909}
       \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -769,7 +744,7 @@
       \keyw{peerjournal}
       \annotation{item}{author}{default}{4}{}{0}{highlight}
     \endentry
-    \entry{krommydas}{article}{}
+    \entry{krommydas}{article}{}{}
       \name{author}{6}{}{%
         {{hash=51ffe12283957682ef696b969d04f760}{%
            family={Krommydas},
@@ -804,10 +779,12 @@
       }
       \strng{namehash}{dbb43e0ffd66bc120be0791b361d4a03}
       \strng{fullhash}{79676aeba6aba8cf522f49923df840a0}
+      \strng{fullhashraw}{79676aeba6aba8cf522f49923df840a0}
       \strng{bibnamehash}{79676aeba6aba8cf522f49923df840a0}
       \strng{authorbibnamehash}{79676aeba6aba8cf522f49923df840a0}
       \strng{authornamehash}{dbb43e0ffd66bc120be0791b361d4a03}
       \strng{authorfullhash}{79676aeba6aba8cf522f49923df840a0}
+      \strng{authorfullhashraw}{79676aeba6aba8cf522f49923df840a0}
       \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -826,7 +803,7 @@
       \keyw{peerjournal}
       \annotation{item}{author}{default}{2}{}{0}{highlight}
     \endentry
-    \entry{stratigakos2022making}{inproceedings}{}
+    \entry{stratigakos2022making}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -854,11 +831,13 @@
       }
       \strng{namehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{fullhash}{9db6641369448bc20df6e60768e5876a}
+      \strng{fullhashraw}{9db6641369448bc20df6e60768e5876a}
       \strng{bibnamehash}{9db6641369448bc20df6e60768e5876a}
       \strng{authorbibnamehash}{9db6641369448bc20df6e60768e5876a}
       \strng{authornamehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{authorfullhash}{9db6641369448bc20df6e60768e5876a}
-      \field{extraname}{5}
+      \strng{authorfullhashraw}{9db6641369448bc20df6e60768e5876a}
+      \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -878,7 +857,7 @@
       \keyw{presentation}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{stratigakos2022prescriptive}{article}{}
+    \entry{stratigakos2022prescriptive}{article}{}{}
       \name{author}{4}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -906,11 +885,13 @@
       }
       \strng{namehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{fullhash}{4599123c01b8f49c1c453a03ff537e82}
+      \strng{fullhashraw}{4599123c01b8f49c1c453a03ff537e82}
       \strng{bibnamehash}{4599123c01b8f49c1c453a03ff537e82}
       \strng{authorbibnamehash}{4599123c01b8f49c1c453a03ff537e82}
       \strng{authornamehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{authorfullhash}{4599123c01b8f49c1c453a03ff537e82}
-      \field{extraname}{6}
+      \strng{authorfullhashraw}{4599123c01b8f49c1c453a03ff537e82}
+      \field{extraname}{5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -926,7 +907,7 @@
       \keyw{peerjournal}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{stratigakos2022endtoend}{inproceedings}{}
+    \entry{stratigakos2022endtoend}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -953,11 +934,13 @@
       }
       \strng{namehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{fullhash}{ba345cdf007642c6dfd8236d7a8ebd22}
+      \strng{fullhashraw}{ba345cdf007642c6dfd8236d7a8ebd22}
       \strng{bibnamehash}{ba345cdf007642c6dfd8236d7a8ebd22}
       \strng{authorbibnamehash}{ba345cdf007642c6dfd8236d7a8ebd22}
       \strng{authornamehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{authorfullhash}{ba345cdf007642c6dfd8236d7a8ebd22}
-      \field{extraname}{7}
+      \strng{authorfullhashraw}{ba345cdf007642c6dfd8236d7a8ebd22}
+      \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -974,7 +957,7 @@
       \keyw{peerconf}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{stratigakos2021robust}{inproceedings}{}
+    \entry{stratigakos2021robust}{inproceedings}{}{}
       \name{author}{1}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -990,10 +973,12 @@
       }
       \strng{namehash}{c0991f4361f458fa75b7c8492b17df27}
       \strng{fullhash}{c0991f4361f458fa75b7c8492b17df27}
+      \strng{fullhashraw}{c0991f4361f458fa75b7c8492b17df27}
       \strng{bibnamehash}{c0991f4361f458fa75b7c8492b17df27}
       \strng{authorbibnamehash}{c0991f4361f458fa75b7c8492b17df27}
       \strng{authornamehash}{c0991f4361f458fa75b7c8492b17df27}
       \strng{authorfullhash}{c0991f4361f458fa75b7c8492b17df27}
+      \strng{authorfullhashraw}{c0991f4361f458fa75b7c8492b17df27}
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -1017,7 +1002,7 @@
       \keyw{presentation}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{stratigakos2021short}{article}{}
+    \entry{stratigakos2021short}{article}{}{}
       \name{author}{4}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -1045,11 +1030,13 @@
       }
       \strng{namehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{fullhash}{1c02ebc0f2fc13cd66b72d4137bfcd66}
+      \strng{fullhashraw}{1c02ebc0f2fc13cd66b72d4137bfcd66}
       \strng{bibnamehash}{1c02ebc0f2fc13cd66b72d4137bfcd66}
       \strng{authorbibnamehash}{1c02ebc0f2fc13cd66b72d4137bfcd66}
       \strng{authornamehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{authorfullhash}{1c02ebc0f2fc13cd66b72d4137bfcd66}
-      \field{extraname}{8}
+      \strng{authorfullhashraw}{1c02ebc0f2fc13cd66b72d4137bfcd66}
+      \field{extraname}{7}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1065,7 +1052,7 @@
       \keyw{peerjournal}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{stratigakos:hal-03238445}{inproceedings}{}
+    \entry{stratigakos:hal-03238445}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -1093,11 +1080,13 @@
       }
       \strng{namehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{fullhash}{da4455ba5147a78edfe08e9ce46a6562}
+      \strng{fullhashraw}{da4455ba5147a78edfe08e9ce46a6562}
       \strng{bibnamehash}{da4455ba5147a78edfe08e9ce46a6562}
       \strng{authorbibnamehash}{da4455ba5147a78edfe08e9ce46a6562}
       \strng{authornamehash}{0befba73afe5dfca76e123548e8ee11d}
       \strng{authorfullhash}{da4455ba5147a78edfe08e9ce46a6562}
-      \field{extraname}{9}
+      \strng{authorfullhashraw}{da4455ba5147a78edfe08e9ce46a6562}
+      \field{extraname}{8}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1116,7 +1105,7 @@
       \keyw{presentation}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{9494832}{inproceedings}{}
+    \entry{9494832}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -1136,10 +1125,12 @@
       }
       \strng{namehash}{87af25201ef08ff619697b65bd0c1253}
       \strng{fullhash}{87af25201ef08ff619697b65bd0c1253}
+      \strng{fullhashraw}{87af25201ef08ff619697b65bd0c1253}
       \strng{bibnamehash}{87af25201ef08ff619697b65bd0c1253}
       \strng{authorbibnamehash}{87af25201ef08ff619697b65bd0c1253}
       \strng{authornamehash}{87af25201ef08ff619697b65bd0c1253}
       \strng{authorfullhash}{87af25201ef08ff619697b65bd0c1253}
+      \strng{authorfullhashraw}{87af25201ef08ff619697b65bd0c1253}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1156,7 +1147,7 @@
       \keyw{peerconf}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{krommydas2020improved}{inproceedings}{}
+    \entry{krommydas2020improved}{inproceedings}{}{}
       \name{author}{6}{}{%
         {{hash=51ffe12283957682ef696b969d04f760}{%
            family={Krommydas},
@@ -1194,10 +1185,12 @@
       }
       \strng{namehash}{dbb43e0ffd66bc120be0791b361d4a03}
       \strng{fullhash}{c0f342afcbabb94b1e56ee030c49dfc4}
+      \strng{fullhashraw}{c0f342afcbabb94b1e56ee030c49dfc4}
       \strng{bibnamehash}{c0f342afcbabb94b1e56ee030c49dfc4}
       \strng{authorbibnamehash}{c0f342afcbabb94b1e56ee030c49dfc4}
       \strng{authornamehash}{dbb43e0ffd66bc120be0791b361d4a03}
       \strng{authorfullhash}{c0f342afcbabb94b1e56ee030c49dfc4}
+      \strng{authorfullhashraw}{c0f342afcbabb94b1e56ee030c49dfc4}
       \field{extraname}{5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -1213,7 +1206,7 @@
       \keyw{peerconf}
       \annotation{item}{author}{default}{2}{}{0}{highlight}
     \endentry
-    \entry{papaioannou2019testing}{article}{}
+    \entry{papaioannou2019testing}{article}{}{}
       \name{author}{5}{}{%
         {{hash=0d05ffaa6d27a2c040bd2d0959dbaf00}{%
            family={Papaioannou},
@@ -1246,10 +1239,12 @@
       }
       \strng{namehash}{9728c5382c9cea98ae3c57fd79587e34}
       \strng{fullhash}{488288c443e3390468ab0c1fb83e20ba}
+      \strng{fullhashraw}{488288c443e3390468ab0c1fb83e20ba}
       \strng{bibnamehash}{488288c443e3390468ab0c1fb83e20ba}
       \strng{authorbibnamehash}{488288c443e3390468ab0c1fb83e20ba}
       \strng{authornamehash}{9728c5382c9cea98ae3c57fd79587e34}
       \strng{authorfullhash}{488288c443e3390468ab0c1fb83e20ba}
+      \strng{authorfullhashraw}{488288c443e3390468ab0c1fb83e20ba}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1265,7 +1260,7 @@
       \keyw{peerjournal}
       \annotation{item}{author}{default}{3}{}{0}{highlight}
     \endentry
-    \entry{8861888}{inproceedings}{}
+    \entry{8861888}{inproceedings}{}{}
       \name{author}{5}{}{%
         {{hash=63cc390f901509f4423fa1d1318a693c}{%
            family={Stratigakos},
@@ -1295,11 +1290,13 @@
       }
       \strng{namehash}{d6e5dba7d8adbfa148b3a76f57188cf2}
       \strng{fullhash}{7286c3c8c7319d325c394e47250b7486}
+      \strng{fullhashraw}{7286c3c8c7319d325c394e47250b7486}
       \strng{bibnamehash}{7286c3c8c7319d325c394e47250b7486}
       \strng{authorbibnamehash}{7286c3c8c7319d325c394e47250b7486}
       \strng{authornamehash}{d6e5dba7d8adbfa148b3a76f57188cf2}
       \strng{authorfullhash}{7286c3c8c7319d325c394e47250b7486}
-      \field{extraname}{10}
+      \strng{authorfullhashraw}{7286c3c8c7319d325c394e47250b7486}
+      \field{extraname}{9}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}

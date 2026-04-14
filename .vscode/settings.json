@@ -1,0 +1,32 @@
+{
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk-clean",
+      "command": "latexmk",
+      "args": [
+        "-C",
+        "%DOCFILE%"
+      ]
+    },
+    {
+      "name": "latexmk-build",
+      "command": "latexmk",
+      "args": [
+        "-pdf",
+        "-interaction=nonstopmode",
+        "-synctex=1",
+        "%DOCFILE%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (clean + build)",
+      "tools": [
+        "latexmk-clean",
+        "latexmk-build"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipe.default": "first"
+}

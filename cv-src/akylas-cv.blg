@@ -1,0 +1,18 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'akylas-cv.blg'
+[280] biber-MSWIN64:342> INFO - === 
+[396] Biber.pm:421> INFO - Reading 'akylas-cv.bcf'
+[477] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[488] Biber.pm:4487> INFO - Processing section 0
+[506] Biber.pm:4678> INFO - Looking for bibtex file 'publications.bib' for section 0
+[595] bibtex.pm:1713> INFO - LaTeX decoding ...
+[634] bibtex.pm:1519> INFO - Found BibTeX data source 'publications.bib'
+[831] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[833] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[833] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[833] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[925] bbl.pm:676> INFO - Writing 'akylas-cv.bbl' with encoding 'UTF-8'
+[943] bbl.pm:779> INFO - Output to akylas-cv.bbl
+[943] Biber.pm:132> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[943] Biber.pm:132> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[943] Biber.pm:134> INFO - WARNINGS: 2
