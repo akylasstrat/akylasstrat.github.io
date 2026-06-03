@@ -1,25 +1,42 @@
 {
+  "latex-workshop.latex.env": {
+    "Path": "C:\\Users\\ucbva19\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64;${env:Path}",
+    "TEMP": "C:\\Users\\ucbva19\\Git projects\\akylas-stratigakos.github.io\\cv-src\\.tmp",
+    "TMP": "C:\\Users\\ucbva19\\Git projects\\akylas-stratigakos.github.io\\cv-src\\.tmp"
+  },
   "latex-workshop.latex.tools": [
     {
       "name": "latexmk-clean",
-      "command": "latexmk",
+      "command": "C:\\Users\\ucbva19\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\latexmk.exe",
       "args": [
+        "-cd",
+        "-r",
+        "%DIR%/latexmkrc.pl",
         "-C",
-        "%DOCFILE%"
+        "%DOC%"
       ]
     },
     {
       "name": "latexmk-build",
-      "command": "latexmk",
+      "command": "C:\\Users\\ucbva19\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\latexmk.exe",
       "args": [
+        "-cd",
+        "-r",
+        "%DIR%/latexmkrc.pl",
         "-pdf",
         "-interaction=nonstopmode",
         "-synctex=1",
-        "%DOCFILE%"
+        "%DOC%"
       ]
     }
   ],
   "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (build)",
+      "tools": [
+        "latexmk-build"
+      ]
+    },
     {
       "name": "latexmk (clean + build)",
       "tools": [

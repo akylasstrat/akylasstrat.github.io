@@ -1,4 +1,7 @@
 # Newest first
+- date: 2026-06-01
+  text: "Two new preprints are now available: [Decision-calibrated prediction sets for robust power system operations](https://arxiv.org/abs/2606.02081) and [End-to-End Pseudo-Measurement Learning for State Estimation under Limited Observability](https://arxiv.org/abs/2605.23525)."
+
 - date: 2026-03-01
   text: "Our paper titled [Constructing Deployment Scenarios for Reserve Deliverability 
           via Adaptive Robust Optimization](https://arxiv.org/abs/2603.16752) has been accepted at the 2026 Power Systems Computation Conference!" 
@@ -9,7 +12,6 @@
   
 - date: 2025-12-01
   text: "I received an Outstanding Reviewer award for IEEE Transactions on Sustainable Energy."
-
   
 - date: 2025-10-01
   text: "Our paper titled [Learning Data-Driven Uncertainty Set Partitions for Robust and Adaptive Energy Forecasting with Missing Data](https://arxiv.org/abs/2503.20410) has been accepted for publication in IEEE Transactions on Smart Grid!"

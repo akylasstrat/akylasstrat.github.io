@@ -57,7 +57,7 @@
       \keyw{peerjournal}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
-    \entry{stratigakos2025levelset}{article}{}{}
+    \entry{stratigakos2026levelset}{article}{}{}
       \name{author}{4}{}{%
         {{hash=c0991f4361f458fa75b7c8492b17df27}{%
            family={Stratigakos},
@@ -93,11 +93,21 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{5}
+      \field{eprintclass}{math.OC}
+      \field{eprinttype}{arXiv}
       \field{note}{working paper or preprint}
-      \field{title}{{Constructing Predictive Sets for Robust Decisions in Power Systems}}
+      \field{title}{Decision-calibrated prediction sets for robust power system operations}
       \field{year}{2026}
       \true{nocite}
+      \verb{eprint}
+      \verb 2606.02081
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2606.02081
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2606.02081
+      \endverb
       \keyw{preprint}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
@@ -143,6 +153,61 @@
       \endverb
       \keyw{peerjournal}
       \annotation{item}{author}{default}{2}{}{0}{highlight}
+    \endentry
+    \entry{delavarga2026pseudomeasurement}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=0808f3d45ed6caee57059718a4fd2f63}{%
+           family={Varga},
+           familyi={V\bibinitperiod},
+           given={J.\bibnamedelimi G.\bibnamedelimi De},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           prefix={la},
+           prefixi={l\bibinitperiod}}}%
+        {{hash=908a7ef268c7650440f0d8afe7fbaaee}{%
+           family={Pineda},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5e20c1cf7033fb512d6eb5f56521ba24}{%
+           family={Stratigakos},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f50d32de5cc3f3544fef3e015a919509}{%
+           family={Morales},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f62887641448cb4fa95865a98f25725}
+      \strng{fullhash}{766bf5c83fd7dc4ee6db075216a6a160}
+      \strng{fullhashraw}{766bf5c83fd7dc4ee6db075216a6a160}
+      \strng{bibnamehash}{766bf5c83fd7dc4ee6db075216a6a160}
+      \strng{authorbibnamehash}{766bf5c83fd7dc4ee6db075216a6a160}
+      \strng{authornamehash}{8f62887641448cb4fa95865a98f25725}
+      \strng{authorfullhash}{766bf5c83fd7dc4ee6db075216a6a160}
+      \strng{authorfullhashraw}{766bf5c83fd7dc4ee6db075216a6a160}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.OC}
+      \field{eprinttype}{arXiv}
+      \field{note}{working paper or preprint}
+      \field{title}{End-to-End Pseudo-Measurement Learning for State Estimation under Limited Observability}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2605.23525
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2605.23525
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2605.23525
+      \endverb
+      \keyw{preprint}
+      \annotation{item}{author}{default}{3}{}{0}{highlight}
     \endentry
     \entry{bergmeir2025predict}{article}{}{}
       \name{author}{28}{}{%

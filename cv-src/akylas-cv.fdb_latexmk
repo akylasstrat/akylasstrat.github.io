@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber akylas-cv"] 1776199084.55053 "akylas-cv.bcf" "akylas-cv.bbl" "akylas-cv" 1776199097.04051 0
-  "akylas-cv.bcf" 1776199096 108566 edeaf05aee225e8117d2a1d8d1d85da1 "pdflatex"
-  "publications.bib" 1776196704 13764 5af8a264b00c252cefabda23ed9e3745 ""
+["biber akylas-cv"] 1780515785.69802 "akylas-cv.bcf" "akylas-cv.bbl" "akylas-cv" 1780516930.98009 0
+  "akylas-cv.bcf" 1780516930 108566 edeaf05aee225e8117d2a1d8d1d85da1 "pdflatex"
+  "publications.bib" 1780515543 14338 0e21e8f5e7b7cc0018d8b4069304482b ""
   (generated)
   "akylas-cv.bbl"
   "akylas-cv.blg"
   (rewritten before read)
-["pdflatex"] 1776199095.60372 "akylas-cv.tex" "akylas-cv.pdf" "akylas-cv" 1776199097.04123 0
+["pdflatex"] 1780516929.15478 "akylas-cv.tex" "akylas-cv.pdf" "akylas-cv" 1780516930.98171 0
   "C:/Users/ucbva19/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776195871 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ucbva19/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1776195798 13334830 a498c29e469644a4847c4ea3460bb91a ""
   "C:/Users/ucbva19/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256933040 2375 baa924870cfb487815765f9094cf3728 ""
@@ -111,11 +111,11 @@
   "C:/Users/ucbva19/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1761904670 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/ucbva19/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ucbva19/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "akylas-cv.aux" 1776199096 4327 e86c24491fd74e5bde72439792ea1bc1 "pdflatex"
-  "akylas-cv.bbl" 1776199092 55086 33523ce0609a88f53f264de798dfc7b6 "biber akylas-cv"
-  "akylas-cv.out" 1776199096 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "akylas-cv.run.xml" 1776199096 2376 c5424e37a6875df55a54698856f9e737 "pdflatex"
-  "akylas-cv.tex" 1776199079 11860 7c393c1400c67ad1e6d4b467c1ed4691 ""
+  "akylas-cv.aux" 1780516930 4595 afae4b41f93717758a702868aa82ba6b "pdflatex"
+  "akylas-cv.bbl" 1780515787 57657 2554aa18ad70efc68d86850886da475d "biber akylas-cv"
+  "akylas-cv.out" 1780516930 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "akylas-cv.run.xml" 1780516930 2376 c5424e37a6875df55a54698856f9e737 "pdflatex"
+  "akylas-cv.tex" 1780516928 12372 b49c16d5b157f4d858f11d58afc45890 ""
   (generated)
   "akylas-cv.aux"
   "akylas-cv.bcf"

@@ -8,5 +8,5 @@ $biber = '"C:/Users/ucbva19/AppData/Local/Programs/MiKTeX/miktex/bin/x64/biber.e
 $pdf_mode = 1;         # build PDF via (pdf)LaTeX
 $diagnostics = 1;      # better messages
 
-# If you ever see “Nothing to do” but you changed .bib, force a rebuild:
+# If you ever see "Nothing to do" but you changed .bib, force a rebuild:
 #    latexmk -g -pdf akylas-cv.tex
