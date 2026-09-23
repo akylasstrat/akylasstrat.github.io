@@ -1,8 +1,33 @@
 - type: "journal"
+  year: 2027
+  title: "End-to-End Pseudo-Measurement Learning for State Estimation under Limited Observability"
+  authors: "J. G. De la Varga, S. Pineda, Akylas Stratigakos, J. M. Morales"
+  venue: "Electric Power Systems Research, vol. 265, article 114220"
+  doi: "10.1016/j.epsr.2026.114220"
+  url: "https://www.sciencedirect.com/science/article/pii/S0378779626015051"
+
+- type: "journal"
+  year: 2027
+  title: "Constructing Deployment Scenarios for Reserve Deliverability via Adaptive Robust Optimization"
+  authors: "Guillaume Van Caelenberg, Akylas Stratigakos, Elina Spyrou"
+  venue: "Electric Power Systems Research, vol. 263, article 113632"
+  doi: "10.1016/j.epsr.2026.113632"
+  url: "https://www.sciencedirect.com/science/article/pii/S0378779626009259"
+  note: "Presented at the 2026 Power Systems Computation Conference (PSCC), Limassol, Cyprus, 8–12 June 2026."
+
+- type: "preprint"
+  year: 2026
+  title: "Decision-Calibrated Prediction Sets for Robust Power System Operations"
+  authors: "Akylas Stratigakos, Honglin Wen, Elina Spyrou, Pierre Pinson"
+  venue: "arXiv preprint"
+  url: "https://arxiv.org/abs/2606.02081"
+
+- type: "journal"
   year: 2026
   title: "Learning Data-Driven Uncertainty Set Partitions for Robust and Adaptive Energy Forecasting with Missing Data"
   authors: "Akylas Stratigakos, Panagiotis Andrianesis"
-  venue: "IEEE Transactions on Smart Grid"
+  venue: "IEEE Transactions on Smart Grid, 17(1), 806–817"
+  doi: "10.1109/TSG.2025.3620957"
   url: "https://arxiv.org/abs/2503.20410"
   code: "https://github.com/akylasstrat/wind-forecast-missing-data"
 
@@ -13,17 +38,10 @@
   # code: "https://github.com/your/repo"
 
 - type: "journal"
-  year: 2026
-  title: "{Constructing Deployment Scenarios for Reserve Deliverability via Adaptive Robust Optimization}"
-  authors: "Guillaume Van Caelenberg, Akylas Stratigakos, Elina Spyrou"
-  venue: Power Systems Computation Conference 2026
-  # code: "https://github.com/your/repo"
-
-- type: "journal"
   year: 2025
-  title: "Predict+Optimize Problem in Renewable Energy Scheduling."
+  title: "Predict+Optimize Problem in Renewable Energy Scheduling"
   authors: "Christoph Bergmeir, Frits De Nijs, Evgenii Genov, Abishek Sriramulu, Mahdi Abolghasemi, Richard Bean, John Betts, Quang Bui, Nam Trong Dinh, Nils Einecke, Rasul Esmaeilbeigi, Scott Ferraro, Priya Galketiya, Robert Glasgow, Rakshitha Godahewa, Yanfei Kang, Steffen Limmer, Luis Magdalena, Pablo Montero-Manso, Daniel Peralta, Yogesh Pipada Sunil Kumar, Alejandro Rosales-Pérez, Julian Ruddick, Akylas Stratigakos, Peter Stuckey, Guido Tack, Isaac Triguero, Rui Yuan"
-  venue: "IEEE Access"
+  venue: "IEEE Access, vol. 13, 60064–60087"
   doi: "10.1109/ACCESS.2025.3555393"
   # code: "https://github.com/your/repo"
 
@@ -36,10 +54,10 @@
   # code: "https://github.com/your/repo"
 
 - type: "journal"
-  year: 2023
+  year: 2024
   title: "Interpretable Machine Learning for DC Optimal Power Flow With Feasibility Guarantees"
   authors: "Akylas Stratigakos, Salvador Pineda, Juan Miguel Morales, Georges Kariniotakis"
-  venue: "IEEE Transactions on Power Systems"
+  venue: "IEEE Transactions on Power Systems, 39(3), 5126–5137"
   doi: "10.1109/TPWRS.2023.3333165"
   # code: "https://github.com/your/repo"
 
@@ -47,7 +65,7 @@
   year: 2025
   title: "Decision-focused linear pooling for probabilistic forecast combination"
   authors: "Akylas Stratigakos, Salvador Pineda, Juan Miguel Morales"
-  venue: "International Journal of Forecasting"
+  venue: "International Journal of Forecasting, 41(3), 1112–1125"
   doi: "10.1016/j.ijforecast.2024.11.006"
   url: "https://www.sciencedirect.com/science/article/pii/S0169207024001213"
   code: "https://github.com/akylasstrat/df-forecast-comb"
@@ -56,15 +74,8 @@
   year: 2024
   title: "A two-stage stochastic unit-commitment formulation for evaluating the impact of battery energy storage systems on reserve requirements"
   authors: "Konstantinos F Krommydas, Akylas C Stratigakos, Efthimia Chassioti, Ioannis Moraitis"
-  venue: "IET Conference Proceedings CP904"
-  # code: "https://github.com/your/repo"
-
-- type: "conference"
-  year: 2024
-  title: "A Two-Stage Stochastic Unit-Commitment Formulation for Evaluating the Impact of Battery Energy Storage Systems on Reserve Requirements"
-  authors: "Konstantinos Krommydas, Akylas Stratigakos, Efthimia Chassioti, Ioannis Moraitis"
-  venue: "{14th Mediterranean Conference on Power Generation Transmission, Distribution and Energy Conversion}"
-  # code: "https://github.com/your/repo"
+  venue: "IET Conference Proceedings, 2024(29), 684–689"
+  doi: "10.1049/icp.2024.4740"
 
 #- type: "journal"
 #  year: 2023
@@ -82,10 +93,10 @@
   # code: "https://github.com/your/repo"
 
 - type: "journal"
-  year: 2023
+  year: 2024
   title: "Towards Resilient Energy Forecasting: A Robust Optimization Approach"
   authors: "Akylas Stratigakos, Panagiotis Andrianesis, Andrea Michiorri, Georges Kariniotakis"
-  venue: "IEEE Transactions on Smart Grid"
+  venue: "IEEE Transactions on Smart Grid, 15(1), 874–885"
   doi: "10.1109/TSG.2023.3272379"
   # code: "https://github.com/your/repo"
 
@@ -93,7 +104,7 @@
   year: 2022
   title: "Prescriptive trees for integrated forecasting and optimization applied in trading of renewable energy"
   authors: "Akylas Stratigakos, Simon Camal, Andrea Michiorri, Georges Kariniotakis"
-  venue: "IEEE Transactions on Power Systems"
+  venue: "IEEE Transactions on Power Systems, 37(6), 4696–4708"
   doi: "10.1109/TPWRS.2022.3152667"
   # code: "https://github.com/your/repo"
 
@@ -101,14 +112,14 @@
   year: 2022
   title: "Flexibility study of the Greek power system using a stochastic programming approach for estimating reserve requirements"
   authors: "Konstantinos Krommydas, Christos Dikaiakos, George Papaioannou, Akylas Stratigakos"
-  venue: "Electric Power Systems Research"
-  # code: "https://github.com/your/repo"
+  venue: "Electric Power Systems Research, vol. 213, article 108620"
+  doi: "10.1016/j.epsr.2022.108620"
 
 - type: "journal"
   year: 2022
   title: "A Novel Modular Mobile Power Flow Controller for Real-Time Congestion Management Tested on a 150kV Transmission System"
   authors: "Konstantinos F. Krommydas, Akylas C. Stratigakos, Christos N. Dikaiakos, George P. Papaioannou, Martin G. Jones, Grace C. McLoughlin"
-  venue: "IEEE Access"
+  venue: "IEEE Access, vol. 10, 96414–96426"
   doi: "10.1109/ACCESS.2022.3205589"
   # code: "https://github.com/your/repo"
 
@@ -132,8 +143,8 @@
   year: 2021
   title: "Short-term net load forecasting with singular spectrum analysis and LSTM neural networks"
   authors: "Akylas Stratigakos, Athanasios Bachoumis, Vasiliki Vita, Elias Zafiropoulos"
-  venue: "Energies"
-  # code: "https://github.com/your/repo"
+  venue: "Energies, 14(14), article 4107"
+  doi: "10.3390/en14144107"
 
 - type: "conference"
   year: 2021
@@ -155,19 +166,22 @@
   year: 2020
   title: "An improved flexibility metric based on kernel density estimators applied on the Greek power system"
   authors: "Konstantinos F Krommydas, Akylas C Stratigakos, Christos Dikaiakos, George P Papaioannou, Elias Zafiropoulos, Lambros Ekonomou"
-  venue: "Flexitranstore"
+  venue: "Lecture Notes in Electrical Engineering, vol. 610, 35–46"
+  doi: "10.1007/978-3-030-37818-9_4"
 
 - type: "journal"
   year: 2019
   title: "Testing the efficiency of electricity markets using a new composite measure based on nonlinear TS Tools"
   authors: "George P Papaioannou, Christos Dikaiakos, Akylas C Stratigakos, Panos C Papageorgiou, Konstantinos F Krommydas"
-  venue: "Energies"
+  venue: "Energies, 12(4), article 618"
+  doi: "10.3390/en12040618"
 
 - type: "conference"
   year: 2019
   title: "A Suitable Flexibility Assessment Approach for the Pre-Screening Phase of Power System Planning Applied on the Greek Power System"
   authors: "Akylas Stratigakos, Konstantinos Krommydas, Panos Papageorgiou, Christos Dikaiakos, George Papaioannou"
-  venue: "IEEE EUROCON 2019 -18th International Conference on Smart Technologies"
+  venue: "IEEE EUROCON 2019 — 18th International Conference on Smart Technologies"
+  doi: "10.1109/EUROCON.2019.8861888"
 
 - type: "conference"
   year: 2023

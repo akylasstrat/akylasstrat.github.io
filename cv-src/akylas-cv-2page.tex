@@ -1,0 +1,115 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[margin=.58in]{geometry}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{enumitem}
+\setlist[itemize]{topsep=1pt,itemsep=0pt,parsep=0pt,leftmargin=1.4em}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+\pagestyle{empty}
+
+\usepackage[backend=biber,bibstyle=numeric,sorting=ydnt,sortcites=true,natbib=true,
+  defernumbers=true,maxbibnames=99,giveninits=true,uniquename=false]{biblatex}
+\addbibresource{publications.bib}
+\renewcommand*{\bibfont}{\normalfont\footnotesize}
+\setlength{\bibitemsep}{1pt}
+\DeclareFieldFormat{doi}{\href{https://doi.org/#1}{DOI}}
+\DeclareFieldFormat{url}{\href{#1}{Link}}
+\AtEveryBibitem{\iffieldundef{doi}{}{\clearfield{url}}}
+\renewcommand*{\mkbibnamegiven}[1]{\ifitemannotation{highlight}{\textbf{#1}}{#1}}
+\renewcommand*{\mkbibnamefamily}[1]{\ifitemannotation{highlight}{\textbf{#1}}{#1}}
+
+\newlength{\datecolwidth}
+\setlength{\datecolwidth}{3.0cm}
+\newenvironment{entrylist}{%
+  \begin{longtable}{@{}p{\datecolwidth}@{\hspace{0.7em}}p{\dimexpr\linewidth-\datecolwidth-0.7em\relax}@{}}%
+}{\end{longtable}}
+\newcommand{\entry}[4]{%
+  \textbf{#1} & \textbf{#2}\\[-0.25em]
+  & {\itshape #3}\\[-0.25em]
+  & #4\\[0.35em]
+}
+\newcommand{\entrylabel}[2]{\textsc{#1} & #2\\[0.4em]}
+
+\newcommand{\name}{Akylas Stratigakos}
+\newcommand{\emailaddr}{a.stratigakos@ucl.ac.uk}
+\newcommand{\website}{https://akylasstrat.github.io}
+\newcommand{\scholar}{https://scholar.google.com/citations?user=RBrai44AAAAJ\&hl=en}
+\newcommand{\orcid}{https://orcid.org/0000-0002-9954-5558}
+
+\begin{document}
+\begin{center}
+  {\LARGE \name}\\[1pt]
+  UCL Energy Institute, University College London\\[3pt]
+  \href{mailto:\emailaddr}{\emailaddr} \,|\, \href{\website}{Website} \,|\,
+  \href{\scholar}{Google Scholar} \,|\, \href{\orcid}{ORCID}
+\end{center}
+
+\section*{Research Profile}
+My research develops machine-learning and optimization methods for reliable, low-carbon energy systems.
+I focus on decision-aware forecasting, robust and prescriptive analytics, and data-driven tools for
+power-system and building operations.
+
+\section*{Academic Appointments}
+\begin{entrylist}
+  \entry{2025--present}{Lecturer (Assistant Professor)}{UCL Energy Institute, University College London}{Energy Systems and Data Analytics}
+  \entry{2023--2025}{Research Associate}{Department of Electrical and Electronic Engineering, Imperial College London}{UK-EPICS: Electric Power Innovation for a Carbon-free Society}
+\end{entrylist}
+
+\section*{Selected Publications}
+\nocite{delavarga2026pseudomeasurement,vancaelenberg2026constructing,stratigakos2025adaptive,stratigakos2024combination,stratigakos2024interpretable,stratigakos2022prescriptive}
+\printbibliography[heading=none]
+
+\section*{Teaching}
+\begin{entrylist}
+  \entry{2026--2027}{Data Analytics for Sustainable Buildings (Co-Lead)}{Sustainable Built Environments, Energy and Resources MEng; 30 credits; 15 students}{%
+    \begin{itemize}
+      \item Co-designing and co-leading the complete module; teaching machine learning, time-series analysis, optimization, and control for smart-building operations.
+    \end{itemize}}
+  \entry{2025--2027}{Energy Data Analytics in the Built Environment (Lead)}{Energy Systems and Data Analytics MSc; 15 credits; 60+ students}{%
+    \begin{itemize}
+      \item Designed and currently lead the core module, applying machine learning, time-series analysis, optimization, and control across the built environment.
+    \end{itemize}}
+\end{entrylist}
+
+\section*{Education}
+\begin{entrylist}
+  \entry{2023}{Ph.D., Energy and Processes}{Mines Paris, PSL University, France}{\emph{Thesis:} Towards the Prescriptive Analytics Paradigm for Energy Forecasting and Power System Optimization}
+  \entry{2016}{MEng, Electrical and Computer Engineering}{University of Patras, Greece}{Specialization: Power Systems and Control}
+\end{entrylist}
+
+\newpage
+\section*{Funding and Awards}
+\begin{entrylist}
+  \entrylabel{Research Grant}{\textbf{LLMs4Energy: Large Language Models for Energy Systems Modelling} --- UCL Energy Institute Early Career Research Fund (internal), Principal Investigator, \pounds7.5k (2026)}
+  \entrylabel{Selected Awards}{Outstanding Reviewer, IEEE Transactions on Sustainable Energy (2025); Best PhD Thesis Award, Think Smartgrids Association (2024); Best Student Presentation and Travel Grant, International Symposium on Forecasting (2022)}
+\end{entrylist}
+
+\section*{Supervision}
+\begin{entrylist}
+  \entrylabel{PhD}{\textbf{Guillaume Van Caelenberg}, Imperial College London, 2023--2026 (co-supervisor); \textbf{Steven Sperazza}, University College London, 2025--2029 (co-supervisor)}
+  \entrylabel{Dissertations}{8 MSc and 2 BSc/MEng students supervised}
+\end{entrylist}
+
+\section*{Industry Experience}
+\begin{entrylist}
+  \entry{2022--2023}{Volunteer Data Scientist}{GIVMED, Greece}{Applied data analytics to redistribute surplus medical supplies to socially vulnerable groups.}
+  \entry{2017--2020}{Research and Development Engineer}{Independent Power Transmission Operator, Greece}{Developed power-system flexibility tools, supported an innovative power-flow-controller installation, and contributed to EU Horizon 2020 projects.}
+\end{entrylist}
+
+\section*{Leadership, Service and Memberships}
+\begin{entrylist}
+  \entrylabel{Leadership}{Vice Chair, CIGRE UK University Hub, London Region (2025--2026); technical programme committee, ACM BuildSys 2026; organizer and chair, invited session on value-oriented forecasting, ISF 2024.}
+  \entrylabel{Memberships}{Energy Institute, IEEE, CIGRE, ESIG, International Institute of Forecasters}
+  \entrylabel{Software}{Python, MATLAB, R, Julia}
+\end{entrylist}
+
+\end{document}

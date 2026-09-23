@@ -33,6 +33,9 @@ maxbibnames=99,giveninits=true,uniquename=false]{biblatex}
 % \usepackage[backend=biber,style=authoryear,sorting=ydnt,maxnames=10]{biblatex}
 \addbibresource{publications.bib}
 \renewcommand*{\bibfont}{\normalfont\small}
+\DeclareFieldFormat{doi}{\href{https://doi.org/#1}{DOI}}
+\DeclareFieldFormat{url}{\href{#1}{Link}}
+\AtEveryBibitem{\iffieldundef{doi}{}{\clearfield{url}}}
 
 \renewcommand*{\mkbibnamegiven}[1]{%
   \ifitemannotation{highlight}
@@ -109,19 +112,18 @@ maxbibnames=99,giveninits=true,uniquename=false]{biblatex}
 
 \section*{Research Interests}
 
-My research develops and validates novel predictive and prescriptive analytics methods,
- leveraging machine learning, operations research, and statistics, 
- to rapidly improve the planning and operations of low-carbon power and energy systems, 
- reducing consumer costs and accelerating decarbonization. 
+My research develops machine-learning and optimization methods for reliable, low-carbon energy systems.
+I focus on decision-aware forecasting, robust and prescriptive analytics, and data-driven tools for
+power-system and building operations.
 
 
 % ---------- Appointments ----------
 \section*{Academic Appointments}
 \begin{entrylist}
-  \entry{08/2025 -}{Lecturer (Assistant Professor)}{UCL Energy Institute, University College London, UK}{
+  \entry{2025--present}{Lecturer (Assistant Professor)}{UCL Energy Institute, University College London, UK}{
     Energy Systems and Data Analytics
   }
-  \entry{10/2023 - 07/2025}{Research Associate}{EEE Department, Imperial College London, UK}{
+  \entry{2023--2025}{Research Associate}{EEE Department, Imperial College London, UK}{
     % \vspace{-0.4em}\begin{itemize}
 %     \item Accelerating the transition toward 100\% renewable-based grid with innovative data-driven and AI-based methods.
 %     \item Leading research on machine learning for low-carbon power systems within the UK - Electric Power Innovation for a
@@ -135,16 +137,16 @@ My research develops and validates novel predictive and prescriptive analytics m
 % ---------- Education ----------
 \section*{Education}
 \begin{entrylist}
-  \entry{2023}{Ph.D., Energy and Processes}{Mines Paris, PSL Univesity, Sophia Antipolis, FR}
+  \entry{2023}{Ph.D., Energy and Processes}{Mines Paris, PSL University, Sophia Antipolis, France}
   {\emph{Thesis}: Towards the Prescriptive Analytics Paradigm for Energy Forecasting and Power System Optimization}
-  \entry{2016}{Meng, Electrical and Computer Engineering}{University of Patras, Patras, GR}{
+  \entry{2016}{MEng, Electrical and Computer Engineering}{University of Patras, Patras, Greece}{
     Specialization: Power Systems, Control}
 \end{entrylist}
 
 % ---------- Visiting ----------
 \section*{Visiting Positions}
 \begin{entrylist}
-  \entry{09/2022 - 01/2023}{Visiting Researcher}{OASYS Research Group, University of Malaga, ES}{}
+  \entry{2022--2023}{Visiting Researcher}{OASYS Research Group, University of M\'alaga, Spain}{}
 \end{entrylist}
 
 % ---------- Publications (from BibTeX) ----------
@@ -170,11 +172,21 @@ My research develops and validates novel predictive and prescriptive analytics m
 % ---------- Teaching ----------
 \section*{Teaching Experience}
 \begin{entrylist}
-  \entry{2025 - 2026}{Energy Data Analytics in the Built Environment (Module Lead)}
+  \entry{2026--2027}{Data Analytics for Sustainable Buildings (Co-Lead)}
+  {Sustainable Built Environments, Energy and Resources MEng (30 credits)}{
+    \begin{itemize}
+      \vspace{-0.4em}
+      \item Co-designing and co-leading the complete module for a cohort of 15 students.
+      \item Teaching machine learning, time-series analysis, optimization, and control for smart-building operations.
+    \end{itemize}
+  }
+
+  \entry{2025--2027}{Energy Data Analytics in the Built Environment (Lead)}
   {Energy Systems and Data Analytics MSc (15 credits)}{
     \begin{itemize}
       \vspace{-0.4em}
-      \item Designed and led a core MSc module (>60 students) on data analytics methods to analyze, predict, and optimize building energy demand and use.
+      \item Designed and currently lead a core MSc module for more than 60 students.
+      \item Teaching machine learning, time-series analysis, optimization, and control across built-environment applications.
     \end{itemize}
   }
 
@@ -183,22 +195,20 @@ My research develops and validates novel predictive and prescriptive analytics m
 % ---------- Industry ----------
 \section*{Industry Experience}
 \begin{entrylist}
-  \entry{09/2017 - 05/2020}{Research and Development Engineer}{Independent Power Transmission Operator (IPTO), Athens, GR}{
+  \entry{2022--2023}{Volunteer Data Scientist}{GIVMED, Athens, Greece}{
+    \begin{itemize}
+      \vspace{-0.4em}
+      \item Applied data analytics to redistribute surplus medical supplies to socially vulnerable groups and address healthcare inequalities.
+    \end{itemize}
+  }
+  \entry{2017--2020}{Research and Development Engineer}{Independent Power Transmission Operator (IPTO), Athens, Greece}{
     \begin{itemize}
       \vspace{-0.4em}
       \item Developed tools to assess system flexibility under high renewable penetration.
-      \item Coordinated successfully installing an innovative power flow controller.
-      % \item Developed a reliable short-term load forecasting tool, increasing forecast accuracy by 5\%.
-      \item Contribution to Horizon 2020 projects.
+      \item Coordinated the successful installation of an innovative power flow controller.
+      \item Contributed to EU Horizon 2020 research and innovation projects on power-system flexibility.
     \end{itemize}
   }
-  \entry{01/2022 - 06/2023}{Data Scientist - Volunteer}{GIVMED, N.G.O., Athens, GR}{
-    \begin{itemize}
-      \vspace{-0.4em}
-%       \item Redistributing surplus medical supplies to socially vulnerable groups, improving
-% access to vital resources, and addressing healthcare inequalities.
-      \item Redistributing surplus medical supplies to socially vulnerable groups and addressing healthcare inequalities through data analytics.
-    \end{itemize}  }
 
 \end{entrylist}
 
@@ -207,7 +217,7 @@ My research develops and validates novel predictive and prescriptive analytics m
 
 \begin{entrylist}
 \entrylabel{Research Grants}{%
-    LLMs4Energy: Large Language Models for Energy Systems Modelling (PI, £7.5k)
+    \textbf{LLMs4Energy: Large Language Models for Energy Systems Modelling} --- UCL Energy Institute Early Career Research Fund (internal), Principal Investigator, \pounds7.5k (2026)
     }
 
 \entrylabel{Awards}{%
@@ -224,16 +234,16 @@ My research develops and validates novel predictive and prescriptive analytics m
 \section*{Supervision}
 \begin{entrylist}
   \entrylabel{PhD}{%
-    \textbf{Guillaume Van Caelenberg}, Imperial College London, 2023 - 2026 (expected).
+    \textbf{Guillaume Van Caelenberg}, Imperial College London, 2023--2026 (expected).
     \emph{Reserve Deliverability in Co-Optimized Electricity Markets}
     (primary supervisor: Dr Elina Spyrou).
 
-    \textbf{Steven Sperazza}, University College London, 2025 - 2029 (expected).
+    \textbf{Steven Sperazza}, University College London, 2025--2029 (expected).
     \emph{Supporting policymaking with statistical emulation of complex models}
     (primary supervisor: Dr Erica Thompson).
   }
-  \entrylabel{MSc}{8 students supervised}
-  \entrylabel{BSc/MEng}{2 students supervised}
+  \entrylabel{Master's}{8 MSc dissertations supervised}
+  \entrylabel{Undergraduate}{2 BSc/MEng dissertations supervised}
 \end{entrylist}
 
 
@@ -249,11 +259,12 @@ My research develops and validates novel predictive and prescriptive analytics m
 %   \entry{2023--}{Course Title}{Institution}{Role and brief description.}
 % \end{entrylist}
 
+\newpage
 \section*{Leadership and Service}
 \begin{entrylist}
   % Reviewer service: label in the margin, list in the right column
   \entrylabel{Reviewer}{%
-    \emph{Journals:} IEEE Transactions on Smart Grids/ Power Systems/ Sustainable Energy; Electric Power Systems Research.
+    \emph{Journals:} IEEE Transactions on Smart Grid; IEEE Transactions on Power Systems; IEEE Transactions on Sustainable Energy; Electric Power Systems Research.
     \emph{Conferences:} IEEE PES PowerTech; International Conference on Probabilistic Methods Applied to Power Systems
 (PMAPS); Power Systems Computation Conference (PSCC).
   }
@@ -306,7 +317,7 @@ Forecasting, Dijon, France (\emph{organizer, chair}).
       \entrylabel{Software}{
       Python, MATLAB, R, Julia}
       \entrylabel{Memberships}{
-      IEEE, CIGRE, ESIG, International Institute of Forecasters
+      Energy Institute, IEEE, CIGRE, ESIG, International Institute of Forecasters
   }
 % Optimization Modellers: Gurobi, CVX, YALMIP, JuMP
 % Memberships: IEEE, CIGRE, ESIG, International Institute of Forecasters
