@@ -1,0 +1,10 @@
+# Add future talks here. Slides can link to /assets/files/talks/ uploads.
+- title: "Reliable Energy Forecasting for Power System Operations"
+  date: 2025-02-26
+  kind: "Invited webinar"
+  event: "G-PST / Energy Systems Integration Group"
+  co_speakers: "Wangkun Xu"
+  summary: "Adaptive forecasting with missing data and learning forecasts for downstream operational decisions."
+  url: "https://www.esig.energy/event/reliable-energy-forecasting/"
+  slides: "https://www.esig.energy/presentation/reliable-energy-forecasting-for-power-system-operations/"
+  recording: "https://youtu.be/pqXhA7S8Hfc"

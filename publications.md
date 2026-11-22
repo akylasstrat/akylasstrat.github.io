@@ -4,6 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
+# Publications
+
 ## Preprints
 
 {% include publist.html type="preprint" %}

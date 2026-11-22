@@ -1,21 +1,33 @@
 {%- assign items = site.data.publications | where: "type", include.type | sort: "year" | reverse -%}
+{%- if include.type == "preprint" -%}
+  {%- assign items = items | sort: "sort_order" | reverse -%}
+{%- endif -%}
 {%- if items and items.size > 0 -%}
 <ul class="pubs">
   {%- for p in items -%}
-  <li class="pub">
-    {{ p.authors }}.
-    {{ p.title }}.
-    <em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}.
-    {%- if p.pdf -%} [<a href="{{ p.pdf | relative_url }}">PDF</a>]{%- endif -%}
-    {%- if p.doi -%}
-      [<a href="https://doi.org/{{ p.doi }}">DOI</a>]
-    {%- endif -%}
-    {%- if p.url -%}
-      [<a href="{{ p.url }}">Link</a>]
-    {%- endif -%}
-    {%- if p.code -%} [<a href="{{ p.code }}">Code</a>]{%- endif -%}
-    {%- if p.note -%}<br><small>{{ p.note }}</small>{%- endif -%}
-  </li>
+<li class="pub" id="{{ p.title | slugify }}">
+<p class="pub-title"><strong>{{ p.title }}</strong></p>
+{%- assign authors = p.authors | replace: "Akylas Stratigakos", "<strong>Akylas Stratigakos</strong>" | replace: "Akylas C Stratigakos", "<strong>Akylas C Stratigakos</strong>" | replace: "Akylas C. Stratigakos", "<strong>Akylas C. Stratigakos</strong>" -%}
+{% if p.authors.size > 300 %}
+{% assign first_author = p.authors | split: "," | first %}
+<details class="pub-authors">
+<summary>{{ first_author }} et al. (including <strong>Akylas Stratigakos</strong>)</summary>
+<p>{{ authors }}.</p>
+</details>
+{% else %}
+<p class="pub-authors">{{ authors }}.</p>
+{% endif %}
+<p class="pub-venue"><em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}.</p>
+{% assign paper_summary = site.papers | where: "publication_title", p.title | first %}
+<p class="resource-links">
+{% if p.summary %}<a href="{{ p.summary | relative_url }}">Summary</a>{% elsif paper_summary %}<a href="{{ paper_summary.url | relative_url }}">Summary</a>{% endif %}
+{% if p.pdf %}<a href="{{ p.pdf | relative_url }}">PDF</a>{% endif %}
+{% if p.url %}<a href="{{ p.url }}">Paper</a>{% endif %}
+{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}
+{% if p.code %}<a href="{{ p.code }}">Code</a>{% endif %}
+</p>
+{% if p.note %}<p class="pub-note">{{ p.note }}</p>{% endif %}
+</li>
   {%- endfor -%}
 </ul>
 {%- else -%}

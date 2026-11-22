@@ -1,4 +1,13 @@
 # Newest first
+- date: 2026-11-19
+  text: "New preprint: [Network-Aware Reserve Procurement via Decision-Dependent Adaptive Robust Optimization](https://arxiv.org/abs/2611.26175), with Guillaume Van Caelenberg and Elina Spyrou."
+
+- date: 2026-11-01
+  text: "Awarded a [Supergen Energy Networks Hub ECR Career Development grant](https://supergenen.org/funding-2-2/) for Explainable Optimisation for Net-Zero Power Systems."
+
+- date: 2026-10-01
+  text: "I co-lead BENV0169: Data Analytics for Sustainable Buildings with Dr Rui Tang; [open-source teaching notebooks](https://github.com/akylasstrat/BENV0169_26-27) are available."
+
 - date: 2026-09-01
   text: "Our paper [End-to-End Pseudo-Measurement Learning for State Estimation under Limited Observability](https://www.sciencedirect.com/science/article/pii/S0378779626015051) has been published in *Electric Power Systems Research*!"
 
@@ -10,8 +19,7 @@
           via Adaptive Robust Optimization](https://arxiv.org/abs/2603.16752) has been accepted at the 2026 Power Systems Computation Conference!" 
 
 - date: 2026-01-01
-  text: "I am leading the Energy Data Analytics in the Built Environment module, which is part of the [Energy Systems and Data Analytics (ESDA)](https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/energy-systems-and-data-analytics-esda-msc) MSc program. 
-        The module includes a range of coding exercises on data analytics for managing and analyzing building energy ([git repo](https://github.com/akylasstrat/BENV0092))" 
+  text: "I lead BENV0092: Energy Data Analytics in the Built Environment for the ESDA MSc; [open-source teaching notebooks](https://github.com/akylasstrat/BENV0092) are available."
   
 - date: 2025-12-01
   text: "I received an Outstanding Reviewer award for IEEE Transactions on Sustainable Energy."

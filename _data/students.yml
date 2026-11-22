@@ -1,0 +1,15 @@
+- name: "Guillaume Van Caelenberg"
+  degree: "PhD"
+  affiliation: "Imperial College London"
+  start_year: 2023
+  topic: "Reserve Deliverability in Co-Optimized Electricity Markets"
+  role: "Co-supervisor"
+  primary_supervisor: "Dr Elina Spyrou"
+
+- name: "Steven Sperazza"
+  degree: "PhD"
+  affiliation: "University College London"
+  start_year: 2025
+  topic: "Supporting policymaking with statistical emulation of complex models"
+  role: "Co-supervisor"
+  primary_supervisor: "Dr Erica Thompson"

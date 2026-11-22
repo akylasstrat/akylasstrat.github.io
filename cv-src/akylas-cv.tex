@@ -21,6 +21,7 @@
 }
 \usepackage{titlesec}
 \titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\raggedbottom
 
 % ---------- BibLaTeX ----------
 
@@ -66,8 +67,8 @@ maxbibnames=99,giveninits=true,uniquename=false]{biblatex}
 
 % \entry{DATES}{HEADING}{INSTITUTION / PLACE}{DETAILS (can be empty)}
 \newcommand{\entry}[4]{%
-  \textbf{#1} & \textbf{#2}\\[-0.2em]
-              & {\itshape #3}\\[-0.2em]
+  \textbf{#1} & \textbf{#2}\\*[-0.2em]
+              & {\itshape #3}\\*[-0.2em]
               & #4\\[0.8em]
 }
 
@@ -112,9 +113,8 @@ maxbibnames=99,giveninits=true,uniquename=false]{biblatex}
 
 \section*{Research Interests}
 
-My research develops machine-learning and optimization methods for reliable, low-carbon energy systems.
-I focus on decision-aware forecasting, robust and prescriptive analytics, and data-driven tools for
-power-system and building operations.
+My research develops artificial intelligence, machine learning and optimization methods to rapidly improve
+the operation and planning of low-carbon energy systems.
 
 
 % ---------- Appointments ----------
@@ -124,13 +124,7 @@ power-system and building operations.
     Energy Systems and Data Analytics
   }
   \entry{2023--2025}{Research Associate}{EEE Department, Imperial College London, UK}{
-    % \vspace{-0.4em}\begin{itemize}
-%     \item Accelerating the transition toward 100\% renewable-based grid with innovative data-driven and AI-based methods.
-%     \item Leading research on machine learning for low-carbon power systems within the UK - Electric Power Innovation for a
-%       Carbon-free Society Center (UK-EPICS).
-%     \item Co-supervising a PhD student, supervising undergraduate and graduate students, assisting and mentoring group members,
-% and developing coursework.
-%   \end{itemize}
+    UK-EPICS: Electric Power Innovation for a Carbon-free Society
   }
 \end{entrylist}
 
@@ -149,7 +143,15 @@ power-system and building operations.
   \entry{2022--2023}{Visiting Researcher}{OASYS Research Group, University of M\'alaga, Spain}{}
 \end{entrylist}
 
+% ---------- Funding ----------
+\section*{Research Funding}
+\begin{entrylist}
+  \entrylabel{2026}{\textbf{Explainable Optimisation for Net-Zero Power Systems} --- \href{https://supergenen.org/funding-2-2/}{Supergen Energy Networks Hub ECR Career Development Fund}, PI, \pounds10k.}
+  \entrylabel{2026}{\textbf{LLMs4Energy: Large Language Models for Energy Systems Modelling} --- UCL Energy Institute Early Career Research Fund, PI, \pounds7.5k.}
+\end{entrylist}
+
 % ---------- Publications (from BibTeX) ----------
+\newpage
 \section*{Publications}
 
 \nocite{*}
@@ -166,30 +168,110 @@ power-system and building operations.
 \subsection*{Thesis}
 \printbibliography[heading = none, keyword=monographs]
 
-% \subsection*{Selected Talks and Presentations}
-% \printbibliography[heading = none, keyword=presentation]
+% ---------- Invited talks ----------
+\section*{Invited Talks}
+\begin{entrylist}
+  \entrylabel{2026}{\textbf{AI for Flexibility workshop}, UCL BSEER (invited speaker).}
+  \entrylabel{2025}{\textbf{Hellenic International Power Group} (invited speaker).}
+  \entrylabel{2025}{\href{https://www.esig.energy/event/reliable-energy-forecasting/}{\textbf{Energy forecasting for reliable power system operations}} --- Energy Systems Integration Group (invited webinar, with Wangkun Xu).}
+  \entrylabel{2021}{\href{https://hal.science/hal-03449920}{\textbf{A robust fix-and-optimize matheuristic for timetabling problems with uncertain renewable energy production}} --- IEEE Symposium Series on Computational Intelligence (invited speaker).}
+\end{entrylist}
 
 % ---------- Teaching ----------
 \section*{Teaching Experience}
 \begin{entrylist}
-  \entry{2026--2027}{Data Analytics for Sustainable Buildings (Co-Lead)}
-  {Sustainable Built Environments, Energy and Resources MEng (30 credits)}{
+  \entry{2026--2027}{BENV0169: Data Analytics for Sustainable Buildings (Co-Lead)}
+  {Sustainable Built Environments, Energy and Resources MEng\newline 30 credits; 15 students}{
     \begin{itemize}
       \vspace{-0.4em}
-      \item Co-designing and co-leading the complete module for a cohort of 15 students.
-      \item Teaching machine learning, time-series analysis, optimization, and control for smart-building operations.
+      \item Co-lead with Dr Rui Tang; jointly design, develop and teach the module material.
+      \item Covers machine learning, energy forecasting, thermal modelling, and optimization and control of buildings, PV and storage.
+      \item \href{https://github.com/akylasstrat/BENV0169_26-27}{Open-source Python notebooks}.
     \end{itemize}
   }
 
-  \entry{2025--2027}{Energy Data Analytics in the Built Environment (Lead)}
-  {Energy Systems and Data Analytics MSc (15 credits)}{
+  \entry{2025--2027}{BENV0092: Energy Data Analytics in the Built Environment (Lead)}
+  {Energy Systems and Data Analytics MSc; 15 credits; 60+ students}{
     \begin{itemize}
       \vspace{-0.4em}
-      \item Designed and currently lead a core MSc module for more than 60 students.
-      \item Teaching machine learning, time-series analysis, optimization, and control across built-environment applications.
+      \item Lead material development, teaching and assessment design.
+      \item Covers building energy data analysis, machine learning, load forecasting, thermal modelling and model predictive control.
+      \item \href{https://github.com/akylasstrat/BENV0092}{Open-source Python notebooks}.
     \end{itemize}
   }
 
+\end{entrylist}
+
+% ---------- Supervision and visitors ----------
+\newpage
+\section*{Supervision and Research Visitors}
+\begin{entrylist}
+  \entrylabel{PhD}{%
+    \textbf{Guillaume Van Caelenberg}, Imperial College London, 2023--2026 (expected).
+    \emph{Reserve Deliverability in Co-Optimized Electricity Markets}.
+    Co-supervisor; primary supervisor: Dr Elina Spyrou.
+
+    \textbf{Steven Sperazza}, University College London, 2025--2029 (expected).
+    \emph{Supporting policymaking with statistical emulation of complex models}.
+    Co-supervisor; primary supervisor: Dr Erica Thompson.
+  }
+  \entrylabel{MSc}{8 dissertations supervised or co-supervised: 6 at UCL (2025--2026), 1 at Imperial College London (2024--2025), and 1 at DTU (2023--2024).}
+  \entrylabel{MEng}{2 projects co-supervised at Imperial College London (2023--2025); current supervision of Maria Ahmed at UCL (2026--2027).}
+  \entrylabel{Research Visitor}{\textbf{J. G. De la Varga}, University of M\'alaga (2025). Research visit on end-to-end pseudo-measurement learning for state estimation, leading to a joint journal paper.}
+  \entrylabel{Mentoring}{\textbf{Vishal Arun}, MSci Mathematics student (2026--2027).}
+\end{entrylist}
+
+
+% ---------- Citizenship ----------
+\section*{Academic Citizenship}
+\begin{entrylist}
+  \entrylabel{2026--2027}{\textbf{Member, WG4 for the proposed BSc in Sustainability and Data Science}, UCL. Contribute to programme structure, module planning and accreditation options.}
+  \entrylabel{2025--2026}{\textbf{Personal Academic Tutor}, UCL. Supported 10 first-year students with academic progress, internships and access to student support.}
+  \entrylabel{2025}{\textbf{Participant, Clean Energy Stakeholder Group}, UCL Engineering.}
+\end{entrylist}
+
+% ---------- Leadership and service ----------
+\section*{Leadership and Service}
+\begin{entrylist}
+  % Reviewer service: label in the margin, list in the right column
+  \entrylabel{Reviewer}{%
+    \emph{Journals:} IEEE Transactions on Smart Grid; IEEE Transactions on Power Systems; IEEE Transactions on Sustainable Energy; Electric Power Systems Research; INFORMS Journal on Data Science.
+    \emph{Conferences:} IEEE PES PowerTech; International Conference on Probabilistic Methods Applied to Power Systems
+(PMAPS); Power Systems Computation Conference (PSCC).
+  }
+
+  \entrylabel{Organization}{
+    CIGRE UK / Women in Engineering event (2026), co-organizer.
+
+    CIGRE UK knowledge-sharing event (2025), co-organizer.
+
+    Inaugural CIGRE UK London Region Universities Hub event, Imperial College London (2025), co-organizer.
+
+    Value-oriented Forecasting, International Symposium on Forecasting, Dijon (2024), invited-session organizer and chair.
+
+    Global Power System Transformation Consortium AI Workshop, ICMS, Edinburgh (2024), co-organizer and session chair.
+  }
+
+  \entrylabel{Service}{
+
+  CIGRE UK University Hub, London Region (\emph{Vice Chair, 2025--2026}).
+
+  ACM BuildSys 2026 (\emph{technical programme committee member}).
+
+  }
+
+\end{entrylist}
+
+
+% ---------- Awards and professional development ----------
+\newpage
+\section*{Awards and Professional Development}
+\begin{entrylist}
+  \entrylabel{2025}{Outstanding Reviewer, IEEE Transactions on Sustainable Energy.}
+  \entrylabel{2024}{Best PhD Thesis Award, Think Smartgrids Association.}
+  \entrylabel{2023}{Erasmus+ Mobility Grant.}
+  \entrylabel{2022}{Best Student Presentation and Travel Grant Award, 42nd International Symposium on Forecasting.}
+  \entrylabel{Training}{Completed Arena for Lecturers on Probation and Introduction to Personal Academic Tutoring at UCL.}
 \end{entrylist}
 
 % ---------- Industry ----------
@@ -198,117 +280,18 @@ power-system and building operations.
   \entry{2022--2023}{Volunteer Data Scientist}{GIVMED, Athens, Greece}{
     \begin{itemize}
       \vspace{-0.4em}
-      \item Applied data analytics to redistribute surplus medical supplies to socially vulnerable groups and address healthcare inequalities.
+      \item Applied data analytics to redistribute surplus medical supplies to socially vulnerable groups.
     \end{itemize}
   }
   \entry{2017--2020}{Research and Development Engineer}{Independent Power Transmission Operator (IPTO), Athens, Greece}{
     \begin{itemize}
       \vspace{-0.4em}
       \item Developed tools to assess system flexibility under high renewable penetration.
-      \item Coordinated the successful installation of an innovative power flow controller.
-      \item Contributed to EU Horizon 2020 research and innovation projects on power-system flexibility.
+      \item Coordinated the installation of an innovative power flow controller.
+      \item Contributed to EU Horizon 2020 projects on power-system flexibility.
     \end{itemize}
   }
-
 \end{entrylist}
-
-% ---------- Grants, Awards, etc. ----------
-\section*{Grants \& Awards}
-
-\begin{entrylist}
-\entrylabel{Research Grants}{%
-    \textbf{LLMs4Energy: Large Language Models for Energy Systems Modelling} --- UCL Energy Institute Early Career Research Fund (internal), Principal Investigator, \pounds7.5k (2026)
-    }
-
-\entrylabel{Awards}{%
-    Outstanding Reviewer IEEE Transactions on Sustainable Energy (2025)
-
-    Best PhD Thesis Award, Think Smartgrids Association (2024)
-
-    Erasmus+ Mobility Grant (2023)
-
-    Best Student Presentation \& Travel Grant Award, 42nd International Symposium on Forecasting (2022)
-    }
-\end{entrylist}
-
-\section*{Supervision}
-\begin{entrylist}
-  \entrylabel{PhD}{%
-    \textbf{Guillaume Van Caelenberg}, Imperial College London, 2023--2026 (expected).
-    \emph{Reserve Deliverability in Co-Optimized Electricity Markets}
-    (primary supervisor: Dr Elina Spyrou).
-
-    \textbf{Steven Sperazza}, University College London, 2025--2029 (expected).
-    \emph{Supporting policymaking with statistical emulation of complex models}
-    (primary supervisor: Dr Erica Thompson).
-  }
-  \entrylabel{Master's}{8 MSc dissertations supervised}
-  \entrylabel{Undergraduate}{2 BSc/MEng dissertations supervised}
-\end{entrylist}
-
-
-% \begin{entrylist}
-%   \entry{2025}{Outstanding Reviewer}{IEEE Transactions on Sustainable Energy}{}
-%   \entry{2024}{Best Thesis Award}{Think Smartgrids Association}{}
-%   \entry{2022}{Best Student Presentation \& Travel Grant Award}{42nd International Symposium on Forecasting}{}
-% \end{entrylist}
-
-% % ---------- Teaching ----------
-% \section*{Teaching}
-% \begin{entrylist}
-%   \entry{2023--}{Course Title}{Institution}{Role and brief description.}
-% \end{entrylist}
-
-\newpage
-\section*{Leadership and Service}
-\begin{entrylist}
-  % Reviewer service: label in the margin, list in the right column
-  \entrylabel{Reviewer}{%
-    \emph{Journals:} IEEE Transactions on Smart Grid; IEEE Transactions on Power Systems; IEEE Transactions on Sustainable Energy; Electric Power Systems Research.
-    \emph{Conferences:} IEEE PES PowerTech; International Conference on Probabilistic Methods Applied to Power Systems
-(PMAPS); Power Systems Computation Conference (PSCC).
-  }
-
-  \entrylabel{Organization}{
-%     Co-organizer of the inaugural event of the CIGRE UK London Region Universities Hub, at Imperial College London,
-% London, 06/05/2025.
-
-  \textbf{Workshop:} Global Power System Transformation Consortium AI Workshop, at ICMS, Edinburgh, 19-23/02/2024 (\emph{co-organizer, session chair})
-
-  \textbf{Invited Session:} Value-oriented Forecasting, 44th International Symposium on
-Forecasting, Dijon, France (\emph{organizer, chair}).
-
-  \textbf{Seminar Series:} Inaugural event of the CIGRE UK London Region Universities Hub, at Imperial College London, 
-  London, 06/05/2025 (\emph{co-organizer}).  }
-
-  \entrylabel{Service}{
-
-  CIGRE UK University Hub | London Region (\emph{Vice Chair, 2025-2026}).
-
-  13th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (BuildSys 2026) (\emph{technical program committee
-  member})
-
-  }
-
-\end{entrylist}
-
-
-% \section*{Supervision}
-
-% \subsection*{PhD Students}
-% \begin{entrylist}
-%   \supervision{2023--}{Guillaume Van Caelenberg}{PhD, Imperial College London, co-supervisor}{Market Services for 100\% VRE-based Power Systems}
-% \end{entrylist}
-
-% \subsection*{MSc and Undergraduate Students}
-% \begin{entrylist}
-%   \supervision{2025}{Yi Ding}{MSc, Imperial College London}{DQN-based Intelligent Decision-Making Method for Market Transactions of Wind-Storage Aggregators with High-Fidelity Model}
-%   \supervision{2025}{Felipe Mendes}{MEng, Imperial College London}{Energy Forecasting with Foundation Time Series Models}
-%   \supervision{2024}{Joshi Himanish}{MEng, Imperial College London}{Machine Learning for Renewable Energy Forecasting and Trading}
-%   \supervision{2023}{Matias Kuhnau}{MSc, DTU and Mines Paris, PSL}{Resilient Prescriptive Analytics for Power Systems}
-% \end{entrylist}
-
-
 
 \section*{Additional Information}
 \begin{entrylist}
@@ -323,12 +306,5 @@ Forecasting, Dijon, France (\emph{organizer, chair}).
 % Memberships: IEEE, CIGRE, ESIG, International Institute of Forecasters
 
 \end{entrylist}
-
-% % ---------- Invited Talks ----------
-% \section*{Invited Talks}
-% \begin{entrylist}
-%   \entry{2024}{Talk Title}{Venue}{City, Country.}
-% \end{entrylist}
-
 
 \end{document}

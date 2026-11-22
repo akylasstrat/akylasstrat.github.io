@@ -17,10 +17,19 @@
 
 - type: "preprint"
   year: 2026
+  sort_order: 202606
   title: "Decision-Calibrated Prediction Sets for Robust Power System Operations"
   authors: "Akylas Stratigakos, Honglin Wen, Elina Spyrou, Pierre Pinson"
   venue: "arXiv preprint"
   url: "https://arxiv.org/abs/2606.02081"
+
+- type: "preprint"
+  year: 2026
+  sort_order: 202611
+  title: "Network-Aware Reserve Procurement via Decision-Dependent Adaptive Robust Optimization"
+  authors: "Guillaume Van Caelenberg, Akylas Stratigakos, Elina Spyrou"
+  venue: "arXiv preprint 2611.26175"
+  url: "https://arxiv.org/abs/2611.26175"
 
 - type: "journal"
   year: 2026
@@ -146,11 +155,11 @@
   venue: "Energies, 14(14), article 4107"
   doi: "10.3390/en14144107"
 
-- type: "conference"
+- type: "misc"
   year: 2021
   title: "A robust fix-and-optimize matheuristic for timetabling problems with uncertain renewable energy production"
   authors: "Akylas Stratigakos"
-  venue: "IEEE Symposium Series on Computational Intelligence 2021"
+  venue: "Invited talk, IEEE Symposium Series on Computational Intelligence 2021"
   url: "https://hal.science/hal-03449920"
   # code: "https://github.com/your/repo"
 
