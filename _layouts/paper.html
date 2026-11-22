@@ -6,21 +6,29 @@ layout: default
 {% assign code_url = page.code_url | default: publication.code %}
 <article class="paper-summary">
   <h1>{{ page.title }}</h1>
-  {% if publication %}<p class="pub-venue">{{ publication.title }} · {{ publication.year }}</p>{% endif %}
-  <p class="resource-links">
-    {% if paper_url %}<a href="{{ paper_url }}">Read the paper</a>{% endif %}
-    {% if publication.doi %}<a href="https://doi.org/{{ publication.doi }}">DOI</a>{% endif %}
-    {% if code_url %}<a href="{{ code_url }}">Code</a>{% endif %}
-  </p>
+  {% if publication %}
+  <p><strong>{{ publication.title }}</strong></p>
+  <p class="pub-authors">{{ publication.authors }}</p>
+  <p class="pub-venue">{{ publication.venue }} · {{ publication.year }}</p>
+  {% endif %}
+
+  {% if page.summary %}<p>{{ page.summary }}</p>{% endif %}
+  {% if page.impact %}<p><strong>Impact.</strong> {{ page.impact }}</p>{% endif %}
 
   {{ content }}
 
   {% if page.figure %}
   <figure>
-    <img src="{{ page.figure | relative_url }}" alt="{{ page.figure_alt | escape }}" loading="lazy">
+    <a href="{{ page.figure | relative_url }}" aria-label="Open the full-size figure"><img src="{{ page.figure | relative_url }}" alt="{{ page.figure_alt | escape }}" {% if page.figure_width %}width="{{ page.figure_width }}" height="{{ page.figure_height }}"{% endif %} loading="lazy"></a>
     {% if page.figure_caption %}<figcaption>{{ page.figure_caption }}</figcaption>{% endif %}
   </figure>
   {% endif %}
+
+  <p class="resource-links">
+    {% if paper_url %}<a href="{{ paper_url }}">Read the paper</a>{% endif %}
+    {% if publication.doi %}<a href="https://doi.org/{{ publication.doi }}">Publication</a>{% endif %}
+    {% if code_url %}<a href="{{ code_url }}">Code</a>{% endif %}
+  </p>
 
   {% if page.interactive %}
   <section aria-labelledby="interactive-summary">
@@ -31,4 +39,4 @@ layout: default
   {% endif %}
 </article>
 
-<p><a href="{{ "/publications/" | relative_url }}">All publications</a></p>
+<p class="resource-links"><a href="{{ "/selected-publications/" | relative_url }}">Selected publications</a><a href="{{ "/publications/" | relative_url }}">Full publication list</a></p>

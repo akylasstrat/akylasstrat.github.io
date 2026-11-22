@@ -68,7 +68,8 @@
   authors: "Akylas Stratigakos, Salvador Pineda, Juan Miguel Morales, Georges Kariniotakis"
   venue: "IEEE Transactions on Power Systems, 39(3), 5126–5137"
   doi: "10.1109/TPWRS.2023.3333165"
-  # code: "https://github.com/your/repo"
+  url: "https://hal.science/hal-04038380"
+  code: "https://git.persee.minesparis.psl.eu/akylas.stratigakos/interpretable-learning-dcopf"
 
 - type: "journal"
   year: 2025
@@ -115,7 +116,8 @@
   authors: "Akylas Stratigakos, Simon Camal, Andrea Michiorri, Georges Kariniotakis"
   venue: "IEEE Transactions on Power Systems, 37(6), 4696–4708"
   doi: "10.1109/TPWRS.2022.3152667"
-  # code: "https://github.com/your/repo"
+  url: "https://hal.science/hal-03330017"
+  code: "https://github.com/akylasstrat/prescriptive_trees_power_apps"
 
 - type: "journal"
   year: 2022

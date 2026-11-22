@@ -1,0 +1,31 @@
+{% assign selected_papers = site.papers | where: "selected", true | sort: "selection_order" %}
+{% if include.homepage %}{% assign selected_papers = selected_papers | where: "homepage", true %}{% endif %}
+{% if include.area %}{% assign selected_papers = selected_papers | where: "area", include.area %}{% endif %}
+<div class="selected-papers">
+{% for paper in selected_papers %}
+  {% assign publication = site.data.publications | where: "title", paper.publication_title | first %}
+  {% assign paper_url = paper.paper_url | default: publication.url %}
+  {% assign code_url = paper.code_url | default: publication.code %}
+  <article class="selected-paper">
+    <div class="selected-paper-text">
+      <p class="paper-topic">{{ paper.topic }} · {{ publication.year }}</p>
+      <h3><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></h3>
+      <p class="pub-venue">{{ publication.venue }}</p>
+      <p>{{ paper.summary }}</p>
+      <p><strong>Impact.</strong> {{ paper.impact }}</p>
+    </div>
+    <figure>
+      <a href="{{ paper.url | relative_url }}" aria-label="Read about {{ paper.title | escape }}">
+        <img src="{{ paper.figure | relative_url }}" alt="{{ paper.figure_alt | escape }}" width="{{ paper.figure_width }}" height="{{ paper.figure_height }}" loading="lazy">
+      </a>
+      <figcaption>{{ paper.figure_caption }}</figcaption>
+    </figure>
+    <p class="resource-links">
+      <a href="{{ paper.url | relative_url }}">Summary</a>
+      {% if paper_url %}<a href="{{ paper_url }}">Paper</a>{% endif %}
+      {% if publication.doi %}<a href="https://doi.org/{{ publication.doi }}">Publication</a>{% endif %}
+      {% if code_url %}<a href="{{ code_url }}">Code</a>{% endif %}
+    </p>
+  </article>
+{% endfor %}
+</div>

@@ -57,19 +57,25 @@ permalink: /
   <section>
     <h3>Forecasting and decision analytics</h3>
     <p>Probabilistic forecasting, forecast combination and decision-focused learning.</p>
-    <a href="{{ "/publications/#decision-focused-linear-pooling-for-probabilistic-forecast-combination" | relative_url }}">Decision-focused forecast combination</a>
+    <a href="{{ "/selected-publications/#decision-focused-learning" | relative_url }}">Explore decision-focused learning</a>
   </section>
   <section>
     <h3>Optimization under uncertainty</h3>
     <p>Robust and adaptive optimization for reliable energy-system operation.</p>
-    <a href="{{ "/publications/#decision-calibrated-prediction-sets-for-robust-power-system-operations" | relative_url }}">Decision-calibrated prediction sets</a>
+    <a href="{{ "/selected-publications/#robust-and-adaptive-forecasting" | relative_url }}">Explore adaptive forecasting</a>
   </section>
   <section>
     <h3>AI for energy systems</h3>
     <p>Interpretable learning, explainable optimization and tools for energy-system modelling.</p>
-    <a href="{{ "/publications/#interpretable-machine-learning-for-dc-optimal-power-flow-with-feasibility-guarantees" | relative_url }}">Interpretable optimal power flow</a>
+    <a href="{{ "/selected-publications/#interpretable-ai-for-power-systems" | relative_url }}">Explore interpretable AI</a>
   </section>
 </div>
+
+## Selected Publications
+
+{% include selected-papers.html homepage="true" %}
+
+[All selected publications]({{ "/selected-publications/" | relative_url }}) · [Full publication list]({{ "/publications/" | relative_url }})
 
 ## News
 {% include news.html limit=6 %}
